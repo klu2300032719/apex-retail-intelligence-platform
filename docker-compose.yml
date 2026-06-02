@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: intelligence-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./store_analytics.db:/app/store_analytics.db
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: always

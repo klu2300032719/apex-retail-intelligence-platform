@@ -1,0 +1,501 @@
+order_id,invoice_number,order_date,order_time,product_name,brand_name,sub_category,qty,total_amount,customer_number,salesperson_name,store_name
+ORD1001,INV-20001,2026-05-21,16:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,4,2177.57,CUST151,Charlie,Brigade Road Flagship
+ORD1002,INV-20002,2026-05-20,10:16:58,FACES CANADA Premium Cosmetics,FACES CANADA,Cosmetics,4,4170.41,CUST221,Charlie,Brigade Road Flagship
+ORD1003,INV-20003,2026-05-08,10:16:58,PLUM Premium Fragrance,PLUM,Fragrance,4,583.52,CUST204,Charlie,Brigade Road Flagship
+ORD1004,INV-20004,2026-05-20,12:16:58,MAC Premium Haircare,MAC,Haircare,3,3336.09,CUST283,Charlie,Brigade Road Flagship
+ORD1005,INV-20005,2026-06-01,12:16:58,HUDA BEAUTY Premium Skincare,HUDA BEAUTY,Skincare,4,1412.41,CUST221,Bob,Brigade Road Flagship
+ORD1006,INV-20006,2026-05-24,11:16:58,HUDA BEAUTY Premium Skincare,HUDA BEAUTY,Skincare,2,2702.22,CUST208,Alice,Brigade Road Flagship
+ORD1007,INV-20007,2026-05-26,14:16:58,FACES CANADA Premium Cosmetics,FACES CANADA,Cosmetics,1,2757.19,CUST244,Bob,Brigade Road Flagship
+ORD1008,INV-20008,2026-05-24,07:16:58,FACES CANADA Premium Cosmetics,FACES CANADA,Cosmetics,2,637.95,CUST293,Charlie,Brigade Road Flagship
+ORD1009,INV-20009,2026-05-09,08:16:58,SWISS BEAUTY Premium Fragrance,SWISS BEAUTY,Fragrance,3,3719.8,CUST175,Alice,Brigade Road Flagship
+ORD1010,INV-20010,2026-05-04,08:16:58,LAKME Premium Cosmetics,LAKME,Cosmetics,3,985.03,CUST202,Charlie,Brigade Road Flagship
+ORD1011,INV-20011,2026-05-15,11:16:58,MAC Premium Skincare,MAC,Skincare,3,936.25,CUST241,Charlie,Brigade Road Flagship
+ORD1012,INV-20012,2026-05-17,07:16:58,HUDA BEAUTY Premium Fragrance,HUDA BEAUTY,Fragrance,4,2102.97,CUST286,Charlie,Brigade Road Flagship
+ORD1013,INV-20013,2026-05-11,09:16:58,MAC Premium Cosmetics,MAC,Cosmetics,2,1046.22,CUST117,Alice,Brigade Road Flagship
+ORD1014,INV-20014,2026-05-05,07:16:58,HUDA BEAUTY Premium Haircare,HUDA BEAUTY,Haircare,1,2297.65,CUST280,Charlie,Brigade Road Flagship
+ORD1015,INV-20015,2026-05-06,08:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,1,1014.63,CUST108,Bob,Brigade Road Flagship
+ORD1016,INV-20016,2026-05-26,08:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,2,696.19,CUST100,Charlie,Brigade Road Flagship
+ORD1017,INV-20017,2026-05-09,07:16:58,HUDA BEAUTY Premium Haircare,HUDA BEAUTY,Haircare,4,1811.95,CUST197,Alice,Brigade Road Flagship
+ORD1018,INV-20018,2026-05-18,09:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,4,3798.52,CUST200,Charlie,Brigade Road Flagship
+ORD1019,INV-20019,2026-05-25,15:16:58,MAC Premium Haircare,MAC,Haircare,3,957.6,CUST287,Bob,Brigade Road Flagship
+ORD1020,INV-20020,2026-05-13,13:16:58,DERMA CO Premium Fragrance,DERMA CO,Fragrance,2,4928.92,CUST204,Bob,Brigade Road Flagship
+ORD1021,INV-20021,2026-05-07,12:16:58,THE FACE SHOP Premium Skincare,THE FACE SHOP,Skincare,4,4822.9,CUST248,Alice,Brigade Road Flagship
+ORD1022,INV-20022,2026-05-10,14:16:58,LAKME Premium Skincare,LAKME,Skincare,2,507.03,CUST215,Charlie,Brigade Road Flagship
+ORD1023,INV-20023,2026-05-09,14:16:58,HUDA BEAUTY Premium Haircare,HUDA BEAUTY,Haircare,1,1119.39,CUST173,Alice,Brigade Road Flagship
+ORD1024,INV-20024,2026-05-14,15:16:58,LAKME Premium Cosmetics,LAKME,Cosmetics,2,3408.84,CUST127,Bob,Brigade Road Flagship
+ORD1025,INV-20025,2026-05-04,07:16:58,COSRX Premium Fragrance,COSRX,Fragrance,3,4035.32,CUST108,Bob,Brigade Road Flagship
+ORD1026,INV-20026,2026-05-30,14:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,1,3191.65,CUST145,Alice,Brigade Road Flagship
+ORD1027,INV-20027,2026-05-26,13:16:58,LAKME Premium Cosmetics,LAKME,Cosmetics,1,2152.66,CUST265,Bob,Brigade Road Flagship
+ORD1028,INV-20028,2026-05-16,13:16:58,FACES CANADA Premium Haircare,FACES CANADA,Haircare,3,1117.81,CUST227,Bob,Brigade Road Flagship
+ORD1029,INV-20029,2026-05-29,07:16:58,MAYBELLINE Premium Haircare,MAYBELLINE,Haircare,4,2804.03,CUST246,Bob,Brigade Road Flagship
+ORD1030,INV-20030,2026-05-24,15:16:58,FARMSTAY Premium Haircare,FARMSTAY,Haircare,4,3984.92,CUST172,Charlie,Brigade Road Flagship
+ORD1031,INV-20031,2026-05-15,16:16:58,MINIMALIST Premium Skincare,MINIMALIST,Skincare,1,2102.63,CUST279,Charlie,Brigade Road Flagship
+ORD1032,INV-20032,2026-05-11,10:16:58,PLUM Premium Cosmetics,PLUM,Cosmetics,3,1228.6,CUST197,Charlie,Brigade Road Flagship
+ORD1033,INV-20033,2026-05-03,06:16:58,LAKME Premium Skincare,LAKME,Skincare,2,2759.96,CUST140,Alice,Brigade Road Flagship
+ORD1034,INV-20034,2026-05-27,09:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,3,1843.09,CUST193,Charlie,Brigade Road Flagship
+ORD1035,INV-20035,2026-05-08,10:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,1,3167.81,CUST101,Alice,Brigade Road Flagship
+ORD1036,INV-20036,2026-05-11,13:16:58,DERMA CO Premium Haircare,DERMA CO,Haircare,3,3015.07,CUST245,Alice,Brigade Road Flagship
+ORD1037,INV-20037,2026-05-14,11:16:58,SWISS BEAUTY Premium Fragrance,SWISS BEAUTY,Fragrance,3,4574.27,CUST260,Bob,Brigade Road Flagship
+ORD1038,INV-20038,2026-05-28,12:16:58,PLUM Premium Fragrance,PLUM,Fragrance,1,1588.73,CUST218,Alice,Brigade Road Flagship
+ORD1039,INV-20039,2026-05-14,11:16:58,SWISS BEAUTY Premium Haircare,SWISS BEAUTY,Haircare,1,535.31,CUST191,Charlie,Brigade Road Flagship
+ORD1040,INV-20040,2026-05-08,06:16:58,MAC Premium Fragrance,MAC,Fragrance,4,2531.82,CUST268,Bob,Brigade Road Flagship
+ORD1041,INV-20041,2026-05-11,10:16:58,DERMA CO Premium Cosmetics,DERMA CO,Cosmetics,4,2668.96,CUST149,Alice,Brigade Road Flagship
+ORD1042,INV-20042,2026-05-18,12:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,3,1173.37,CUST240,Charlie,Brigade Road Flagship
+ORD1043,INV-20043,2026-05-17,14:16:58,MAYBELLINE Premium Haircare,MAYBELLINE,Haircare,2,1393.78,CUST128,Alice,Brigade Road Flagship
+ORD1044,INV-20044,2026-05-18,14:16:58,THE FACE SHOP Premium Fragrance,THE FACE SHOP,Fragrance,4,1027.21,CUST207,Bob,Brigade Road Flagship
+ORD1045,INV-20045,2026-05-03,09:16:58,MAC Premium Fragrance,MAC,Fragrance,2,1049.29,CUST119,Bob,Brigade Road Flagship
+ORD1046,INV-20046,2026-05-06,08:16:58,MINIMALIST Premium Haircare,MINIMALIST,Haircare,1,1484.74,CUST224,Charlie,Brigade Road Flagship
+ORD1047,INV-20047,2026-05-21,14:16:58,COSRX Premium Skincare,COSRX,Skincare,2,782.45,CUST214,Charlie,Brigade Road Flagship
+ORD1048,INV-20048,2026-05-17,15:16:58,DERMA CO Premium Haircare,DERMA CO,Haircare,4,1800.19,CUST180,Charlie,Brigade Road Flagship
+ORD1049,INV-20049,2026-05-28,11:16:58,MINIMALIST Premium Haircare,MINIMALIST,Haircare,1,4100.56,CUST300,Alice,Brigade Road Flagship
+ORD1050,INV-20050,2026-05-13,12:16:58,SWISS BEAUTY Premium Haircare,SWISS BEAUTY,Haircare,4,4418.32,CUST166,Alice,Brigade Road Flagship
+ORD1051,INV-20051,2026-05-09,12:16:58,PLUM Premium Fragrance,PLUM,Fragrance,2,2221.12,CUST217,Alice,Brigade Road Flagship
+ORD1052,INV-20052,2026-05-14,15:16:58,THE FACE SHOP Premium Fragrance,THE FACE SHOP,Fragrance,3,4895.69,CUST196,Alice,Brigade Road Flagship
+ORD1053,INV-20053,2026-05-10,08:16:58,FARMSTAY Premium Skincare,FARMSTAY,Skincare,2,3452.72,CUST180,Alice,Brigade Road Flagship
+ORD1054,INV-20054,2026-05-15,08:16:58,MAYBELLINE Premium Cosmetics,MAYBELLINE,Cosmetics,3,2876.49,CUST122,Charlie,Brigade Road Flagship
+ORD1055,INV-20055,2026-05-31,14:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,3,2209.86,CUST111,Charlie,Brigade Road Flagship
+ORD1056,INV-20056,2026-05-14,13:16:58,LAKME Premium Skincare,LAKME,Skincare,3,2044.72,CUST223,Alice,Brigade Road Flagship
+ORD1057,INV-20057,2026-06-01,09:16:58,DERMA CO Premium Haircare,DERMA CO,Haircare,1,1945.05,CUST129,Charlie,Brigade Road Flagship
+ORD1058,INV-20058,2026-05-12,11:16:58,PLUM Premium Haircare,PLUM,Haircare,4,2085.54,CUST219,Alice,Brigade Road Flagship
+ORD1059,INV-20059,2026-05-03,16:16:58,MINIMALIST Premium Cosmetics,MINIMALIST,Cosmetics,4,576.12,CUST282,Alice,Brigade Road Flagship
+ORD1060,INV-20060,2026-05-26,13:16:58,MAC Premium Haircare,MAC,Haircare,1,2868.59,CUST269,Bob,Brigade Road Flagship
+ORD1061,INV-20061,2026-05-13,08:16:58,DERMA CO Premium Haircare,DERMA CO,Haircare,3,1266.47,CUST260,Alice,Brigade Road Flagship
+ORD1062,INV-20062,2026-05-13,12:16:58,DERMA CO Premium Haircare,DERMA CO,Haircare,3,4702.23,CUST138,Charlie,Brigade Road Flagship
+ORD1063,INV-20063,2026-05-29,15:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,1,639.82,CUST240,Bob,Brigade Road Flagship
+ORD1064,INV-20064,2026-05-19,10:16:58,MAYBELLINE Premium Cosmetics,MAYBELLINE,Cosmetics,1,2159.17,CUST110,Alice,Brigade Road Flagship
+ORD1065,INV-20065,2026-05-13,10:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,2,527.5,CUST143,Charlie,Brigade Road Flagship
+ORD1066,INV-20066,2026-05-12,08:16:58,MAC Premium Haircare,MAC,Haircare,4,4954.42,CUST145,Bob,Brigade Road Flagship
+ORD1067,INV-20067,2026-05-30,09:16:58,FACES CANADA Premium Cosmetics,FACES CANADA,Cosmetics,1,3649.44,CUST208,Alice,Brigade Road Flagship
+ORD1068,INV-20068,2026-05-12,07:16:58,MAYBELLINE Premium Cosmetics,MAYBELLINE,Cosmetics,3,4830.54,CUST293,Charlie,Brigade Road Flagship
+ORD1069,INV-20069,2026-05-05,06:16:58,COSRX Premium Cosmetics,COSRX,Cosmetics,3,1017.18,CUST191,Alice,Brigade Road Flagship
+ORD1070,INV-20070,2026-05-19,07:16:58,HUDA BEAUTY Premium Haircare,HUDA BEAUTY,Haircare,3,4710.88,CUST293,Bob,Brigade Road Flagship
+ORD1071,INV-20071,2026-05-09,12:16:58,MAYBELLINE Premium Skincare,MAYBELLINE,Skincare,3,3514.17,CUST130,Alice,Brigade Road Flagship
+ORD1072,INV-20072,2026-05-07,10:16:58,MAC Premium Skincare,MAC,Skincare,1,2127.77,CUST140,Bob,Brigade Road Flagship
+ORD1073,INV-20073,2026-05-15,09:16:58,MINIMALIST Premium Haircare,MINIMALIST,Haircare,1,3293.19,CUST154,Bob,Brigade Road Flagship
+ORD1074,INV-20074,2026-05-06,16:16:58,COSRX Premium Skincare,COSRX,Skincare,1,3069.39,CUST180,Bob,Brigade Road Flagship
+ORD1075,INV-20075,2026-05-25,16:16:58,PLUM Premium Haircare,PLUM,Haircare,4,4357.13,CUST123,Alice,Brigade Road Flagship
+ORD1076,INV-20076,2026-05-16,13:16:58,LAKME Premium Skincare,LAKME,Skincare,2,4431.42,CUST287,Charlie,Brigade Road Flagship
+ORD1077,INV-20077,2026-05-15,06:16:58,FARMSTAY Premium Skincare,FARMSTAY,Skincare,2,1050.53,CUST187,Charlie,Brigade Road Flagship
+ORD1078,INV-20078,2026-05-20,15:16:58,PLUM Premium Skincare,PLUM,Skincare,3,2313.07,CUST181,Alice,Brigade Road Flagship
+ORD1079,INV-20079,2026-05-11,11:16:58,MINIMALIST Premium Skincare,MINIMALIST,Skincare,1,3581.96,CUST294,Alice,Brigade Road Flagship
+ORD1080,INV-20080,2026-05-29,14:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,3,4367.38,CUST277,Bob,Brigade Road Flagship
+ORD1081,INV-20081,2026-05-23,16:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,3,3410.16,CUST295,Charlie,Brigade Road Flagship
+ORD1082,INV-20082,2026-05-03,15:16:58,FACES CANADA Premium Cosmetics,FACES CANADA,Cosmetics,3,1062.77,CUST197,Charlie,Brigade Road Flagship
+ORD1083,INV-20083,2026-05-15,14:16:58,DERMA CO Premium Cosmetics,DERMA CO,Cosmetics,4,4324.98,CUST136,Bob,Brigade Road Flagship
+ORD1084,INV-20084,2026-05-27,07:16:58,FACES CANADA Premium Haircare,FACES CANADA,Haircare,4,2928.37,CUST104,Alice,Brigade Road Flagship
+ORD1085,INV-20085,2026-05-30,13:16:58,COSRX Premium Cosmetics,COSRX,Cosmetics,2,577.95,CUST239,Alice,Brigade Road Flagship
+ORD1086,INV-20086,2026-05-10,06:16:58,MAC Premium Cosmetics,MAC,Cosmetics,4,1125.4,CUST109,Alice,Brigade Road Flagship
+ORD1087,INV-20087,2026-06-01,15:16:58,FACES CANADA Premium Skincare,FACES CANADA,Skincare,3,1261.06,CUST257,Charlie,Brigade Road Flagship
+ORD1088,INV-20088,2026-05-21,09:16:58,COSRX Premium Haircare,COSRX,Haircare,3,4937.34,CUST149,Alice,Brigade Road Flagship
+ORD1089,INV-20089,2026-05-08,12:16:58,DERMA CO Premium Fragrance,DERMA CO,Fragrance,2,2396.79,CUST164,Charlie,Brigade Road Flagship
+ORD1090,INV-20090,2026-05-29,15:16:58,FACES CANADA Premium Skincare,FACES CANADA,Skincare,1,4093.18,CUST194,Charlie,Brigade Road Flagship
+ORD1091,INV-20091,2026-05-29,11:16:58,PLUM Premium Cosmetics,PLUM,Cosmetics,1,1909.95,CUST197,Bob,Brigade Road Flagship
+ORD1092,INV-20092,2026-05-11,11:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,2,772.37,CUST187,Alice,Brigade Road Flagship
+ORD1093,INV-20093,2026-05-29,08:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,1,2457.21,CUST120,Charlie,Brigade Road Flagship
+ORD1094,INV-20094,2026-05-10,08:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,1,1309.96,CUST144,Bob,Brigade Road Flagship
+ORD1095,INV-20095,2026-05-20,12:16:58,MAC Premium Skincare,MAC,Skincare,1,3382.69,CUST148,Bob,Brigade Road Flagship
+ORD1096,INV-20096,2026-05-16,16:16:58,MAYBELLINE Premium Skincare,MAYBELLINE,Skincare,1,758.96,CUST101,Alice,Brigade Road Flagship
+ORD1097,INV-20097,2026-05-21,08:16:58,PLUM Premium Cosmetics,PLUM,Cosmetics,4,1884.4,CUST188,Charlie,Brigade Road Flagship
+ORD1098,INV-20098,2026-05-07,11:16:58,DERMA CO Premium Haircare,DERMA CO,Haircare,4,2571.58,CUST214,Alice,Brigade Road Flagship
+ORD1099,INV-20099,2026-05-10,15:16:58,MINIMALIST Premium Skincare,MINIMALIST,Skincare,3,3346.37,CUST287,Charlie,Brigade Road Flagship
+ORD1100,INV-20100,2026-05-03,16:16:58,FACES CANADA Premium Haircare,FACES CANADA,Haircare,2,4890.79,CUST129,Charlie,Brigade Road Flagship
+ORD1101,INV-20101,2026-05-30,07:16:58,LAKME Premium Cosmetics,LAKME,Cosmetics,3,3424.16,CUST288,Alice,Brigade Road Flagship
+ORD1102,INV-20102,2026-05-17,13:16:58,FACES CANADA Premium Haircare,FACES CANADA,Haircare,1,4301.67,CUST295,Alice,Brigade Road Flagship
+ORD1103,INV-20103,2026-05-16,11:16:58,MAYBELLINE Premium Cosmetics,MAYBELLINE,Cosmetics,3,4403.76,CUST151,Charlie,Brigade Road Flagship
+ORD1104,INV-20104,2026-05-13,12:16:58,FACES CANADA Premium Haircare,FACES CANADA,Haircare,1,2669.51,CUST279,Alice,Brigade Road Flagship
+ORD1105,INV-20105,2026-05-20,16:16:58,HUDA BEAUTY Premium Fragrance,HUDA BEAUTY,Fragrance,1,4903.02,CUST224,Alice,Brigade Road Flagship
+ORD1106,INV-20106,2026-05-04,13:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,2,2975.07,CUST291,Alice,Brigade Road Flagship
+ORD1107,INV-20107,2026-05-18,08:16:58,SWISS BEAUTY Premium Skincare,SWISS BEAUTY,Skincare,3,3067.39,CUST188,Charlie,Brigade Road Flagship
+ORD1108,INV-20108,2026-05-05,08:16:58,SWISS BEAUTY Premium Skincare,SWISS BEAUTY,Skincare,4,4435.94,CUST151,Charlie,Brigade Road Flagship
+ORD1109,INV-20109,2026-05-30,10:16:58,LAKME Premium Fragrance,LAKME,Fragrance,1,1049.87,CUST165,Alice,Brigade Road Flagship
+ORD1110,INV-20110,2026-05-23,08:16:58,HUDA BEAUTY Premium Skincare,HUDA BEAUTY,Skincare,3,2392.49,CUST187,Bob,Brigade Road Flagship
+ORD1111,INV-20111,2026-05-17,10:16:58,LAKME Premium Haircare,LAKME,Haircare,3,1767.69,CUST205,Alice,Brigade Road Flagship
+ORD1112,INV-20112,2026-05-31,13:16:58,FACES CANADA Premium Skincare,FACES CANADA,Skincare,4,798.27,CUST133,Alice,Brigade Road Flagship
+ORD1113,INV-20113,2026-05-09,12:16:58,HUDA BEAUTY Premium Cosmetics,HUDA BEAUTY,Cosmetics,2,4723.89,CUST196,Bob,Brigade Road Flagship
+ORD1114,INV-20114,2026-05-28,13:16:58,DERMA CO Premium Haircare,DERMA CO,Haircare,4,1011.07,CUST210,Bob,Brigade Road Flagship
+ORD1115,INV-20115,2026-05-15,07:16:58,MAC Premium Fragrance,MAC,Fragrance,4,3924.05,CUST138,Charlie,Brigade Road Flagship
+ORD1116,INV-20116,2026-05-23,09:16:58,PLUM Premium Haircare,PLUM,Haircare,2,3482.81,CUST280,Alice,Brigade Road Flagship
+ORD1117,INV-20117,2026-05-13,08:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,2,934.61,CUST284,Bob,Brigade Road Flagship
+ORD1118,INV-20118,2026-05-25,15:16:58,COSRX Premium Cosmetics,COSRX,Cosmetics,4,2544.93,CUST228,Bob,Brigade Road Flagship
+ORD1119,INV-20119,2026-05-19,13:16:58,FACES CANADA Premium Skincare,FACES CANADA,Skincare,3,1524.83,CUST193,Bob,Brigade Road Flagship
+ORD1120,INV-20120,2026-06-02,16:16:58,SWISS BEAUTY Premium Fragrance,SWISS BEAUTY,Fragrance,3,4344.59,CUST210,Charlie,Brigade Road Flagship
+ORD1121,INV-20121,2026-05-06,15:16:58,HUDA BEAUTY Premium Fragrance,HUDA BEAUTY,Fragrance,4,590.65,CUST137,Bob,Brigade Road Flagship
+ORD1122,INV-20122,2026-05-27,13:16:58,FARMSTAY Premium Haircare,FARMSTAY,Haircare,4,2325.87,CUST228,Alice,Brigade Road Flagship
+ORD1123,INV-20123,2026-06-01,08:16:58,MAC Premium Haircare,MAC,Haircare,3,2399.14,CUST258,Alice,Brigade Road Flagship
+ORD1124,INV-20124,2026-05-22,13:16:58,MAYBELLINE Premium Cosmetics,MAYBELLINE,Cosmetics,3,3380.67,CUST142,Bob,Brigade Road Flagship
+ORD1125,INV-20125,2026-05-23,10:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,4,1785.76,CUST230,Alice,Brigade Road Flagship
+ORD1126,INV-20126,2026-05-05,10:16:58,DERMA CO Premium Cosmetics,DERMA CO,Cosmetics,1,2920.77,CUST163,Charlie,Brigade Road Flagship
+ORD1127,INV-20127,2026-05-21,07:16:58,COSRX Premium Fragrance,COSRX,Fragrance,1,4329.76,CUST145,Alice,Brigade Road Flagship
+ORD1128,INV-20128,2026-05-31,11:16:58,MAC Premium Cosmetics,MAC,Cosmetics,4,1819.16,CUST266,Alice,Brigade Road Flagship
+ORD1129,INV-20129,2026-05-23,13:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,1,655.34,CUST161,Bob,Brigade Road Flagship
+ORD1130,INV-20130,2026-05-30,06:16:58,MAC Premium Fragrance,MAC,Fragrance,4,3005.54,CUST214,Alice,Brigade Road Flagship
+ORD1131,INV-20131,2026-05-31,08:16:58,MAC Premium Cosmetics,MAC,Cosmetics,2,1117.31,CUST113,Charlie,Brigade Road Flagship
+ORD1132,INV-20132,2026-05-14,13:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,3,2830.29,CUST129,Charlie,Brigade Road Flagship
+ORD1133,INV-20133,2026-05-23,09:16:58,PLUM Premium Haircare,PLUM,Haircare,3,1869.58,CUST256,Alice,Brigade Road Flagship
+ORD1134,INV-20134,2026-05-25,10:16:58,LAKME Premium Skincare,LAKME,Skincare,2,3484.29,CUST146,Bob,Brigade Road Flagship
+ORD1135,INV-20135,2026-05-04,06:16:58,SWISS BEAUTY Premium Haircare,SWISS BEAUTY,Haircare,2,2456.5,CUST275,Bob,Brigade Road Flagship
+ORD1136,INV-20136,2026-05-27,14:16:58,MINIMALIST Premium Skincare,MINIMALIST,Skincare,2,889.05,CUST218,Charlie,Brigade Road Flagship
+ORD1137,INV-20137,2026-05-07,10:16:58,FACES CANADA Premium Skincare,FACES CANADA,Skincare,2,2058.8,CUST222,Charlie,Brigade Road Flagship
+ORD1138,INV-20138,2026-05-24,12:16:58,SWISS BEAUTY Premium Skincare,SWISS BEAUTY,Skincare,1,2597.56,CUST108,Charlie,Brigade Road Flagship
+ORD1139,INV-20139,2026-05-21,11:16:58,HUDA BEAUTY Premium Cosmetics,HUDA BEAUTY,Cosmetics,1,796.66,CUST252,Charlie,Brigade Road Flagship
+ORD1140,INV-20140,2026-05-11,13:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,3,968.26,CUST245,Alice,Brigade Road Flagship
+ORD1141,INV-20141,2026-05-26,10:16:58,LAKME Premium Haircare,LAKME,Haircare,4,4445.02,CUST255,Bob,Brigade Road Flagship
+ORD1142,INV-20142,2026-05-07,15:16:58,HUDA BEAUTY Premium Fragrance,HUDA BEAUTY,Fragrance,2,1644.2,CUST118,Bob,Brigade Road Flagship
+ORD1143,INV-20143,2026-06-01,07:16:58,FACES CANADA Premium Fragrance,FACES CANADA,Fragrance,4,4513.6,CUST197,Alice,Brigade Road Flagship
+ORD1144,INV-20144,2026-05-26,06:16:58,HUDA BEAUTY Premium Cosmetics,HUDA BEAUTY,Cosmetics,2,517.08,CUST141,Bob,Brigade Road Flagship
+ORD1145,INV-20145,2026-05-12,09:16:58,SWISS BEAUTY Premium Fragrance,SWISS BEAUTY,Fragrance,4,1450.59,CUST147,Alice,Brigade Road Flagship
+ORD1146,INV-20146,2026-05-23,14:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,4,4416.62,CUST135,Bob,Brigade Road Flagship
+ORD1147,INV-20147,2026-05-09,07:16:58,THE FACE SHOP Premium Skincare,THE FACE SHOP,Skincare,3,1677.94,CUST295,Bob,Brigade Road Flagship
+ORD1148,INV-20148,2026-05-18,10:16:58,MAC Premium Cosmetics,MAC,Cosmetics,1,557.01,CUST186,Charlie,Brigade Road Flagship
+ORD1149,INV-20149,2026-05-21,14:16:58,FACES CANADA Premium Haircare,FACES CANADA,Haircare,4,1487.06,CUST287,Bob,Brigade Road Flagship
+ORD1150,INV-20150,2026-05-21,15:16:58,SWISS BEAUTY Premium Skincare,SWISS BEAUTY,Skincare,4,975.57,CUST187,Bob,Brigade Road Flagship
+ORD1151,INV-20151,2026-05-16,12:16:58,PLUM Premium Haircare,PLUM,Haircare,4,1351.24,CUST174,Alice,Brigade Road Flagship
+ORD1152,INV-20152,2026-05-19,15:16:58,LAKME Premium Skincare,LAKME,Skincare,2,4798.31,CUST279,Charlie,Brigade Road Flagship
+ORD1153,INV-20153,2026-05-08,06:16:58,COSRX Premium Skincare,COSRX,Skincare,3,3069.86,CUST116,Charlie,Brigade Road Flagship
+ORD1154,INV-20154,2026-05-18,07:16:58,MINIMALIST Premium Cosmetics,MINIMALIST,Cosmetics,3,774.88,CUST189,Charlie,Brigade Road Flagship
+ORD1155,INV-20155,2026-05-29,13:16:58,MINIMALIST Premium Fragrance,MINIMALIST,Fragrance,4,1492.53,CUST168,Alice,Brigade Road Flagship
+ORD1156,INV-20156,2026-05-03,13:16:58,COSRX Premium Cosmetics,COSRX,Cosmetics,4,4190.16,CUST191,Alice,Brigade Road Flagship
+ORD1157,INV-20157,2026-05-26,15:16:58,HUDA BEAUTY Premium Skincare,HUDA BEAUTY,Skincare,2,3230.99,CUST213,Charlie,Brigade Road Flagship
+ORD1158,INV-20158,2026-05-11,14:16:58,MINIMALIST Premium Skincare,MINIMALIST,Skincare,1,1180.6,CUST224,Alice,Brigade Road Flagship
+ORD1159,INV-20159,2026-05-22,10:16:58,PLUM Premium Skincare,PLUM,Skincare,3,1117.07,CUST121,Bob,Brigade Road Flagship
+ORD1160,INV-20160,2026-05-22,14:16:58,FACES CANADA Premium Skincare,FACES CANADA,Skincare,2,2843.59,CUST295,Bob,Brigade Road Flagship
+ORD1161,INV-20161,2026-05-25,06:16:58,PLUM Premium Haircare,PLUM,Haircare,2,2447.98,CUST114,Bob,Brigade Road Flagship
+ORD1162,INV-20162,2026-05-28,11:16:58,COSRX Premium Cosmetics,COSRX,Cosmetics,4,3815.26,CUST162,Charlie,Brigade Road Flagship
+ORD1163,INV-20163,2026-05-15,07:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,1,3433.46,CUST262,Bob,Brigade Road Flagship
+ORD1164,INV-20164,2026-05-11,15:16:58,FARMSTAY Premium Skincare,FARMSTAY,Skincare,4,3787.0,CUST151,Charlie,Brigade Road Flagship
+ORD1165,INV-20165,2026-05-30,07:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,4,2573.12,CUST218,Alice,Brigade Road Flagship
+ORD1166,INV-20166,2026-05-11,07:16:58,HUDA BEAUTY Premium Skincare,HUDA BEAUTY,Skincare,3,2150.26,CUST235,Charlie,Brigade Road Flagship
+ORD1167,INV-20167,2026-05-09,12:16:58,MAYBELLINE Premium Cosmetics,MAYBELLINE,Cosmetics,3,3566.77,CUST229,Alice,Brigade Road Flagship
+ORD1168,INV-20168,2026-05-07,07:16:58,MAYBELLINE Premium Skincare,MAYBELLINE,Skincare,4,2742.16,CUST175,Alice,Brigade Road Flagship
+ORD1169,INV-20169,2026-05-13,09:16:58,SWISS BEAUTY Premium Haircare,SWISS BEAUTY,Haircare,3,634.33,CUST138,Charlie,Brigade Road Flagship
+ORD1170,INV-20170,2026-05-07,15:16:58,LAKME Premium Haircare,LAKME,Haircare,3,629.89,CUST152,Alice,Brigade Road Flagship
+ORD1171,INV-20171,2026-05-18,12:16:58,HUDA BEAUTY Premium Fragrance,HUDA BEAUTY,Fragrance,4,2420.92,CUST266,Alice,Brigade Road Flagship
+ORD1172,INV-20172,2026-06-02,14:16:58,MAYBELLINE Premium Cosmetics,MAYBELLINE,Cosmetics,1,644.38,CUST265,Bob,Brigade Road Flagship
+ORD1173,INV-20173,2026-05-10,13:16:58,LAKME Premium Cosmetics,LAKME,Cosmetics,2,4925.36,CUST101,Charlie,Brigade Road Flagship
+ORD1174,INV-20174,2026-05-19,08:16:58,COSRX Premium Haircare,COSRX,Haircare,3,4896.77,CUST254,Charlie,Brigade Road Flagship
+ORD1175,INV-20175,2026-05-07,09:16:58,LAKME Premium Skincare,LAKME,Skincare,1,582.18,CUST283,Alice,Brigade Road Flagship
+ORD1176,INV-20176,2026-05-31,12:16:58,MAC Premium Fragrance,MAC,Fragrance,2,2304.07,CUST113,Charlie,Brigade Road Flagship
+ORD1177,INV-20177,2026-05-20,07:16:58,HUDA BEAUTY Premium Cosmetics,HUDA BEAUTY,Cosmetics,4,1203.2,CUST183,Bob,Brigade Road Flagship
+ORD1178,INV-20178,2026-05-29,12:16:58,MINIMALIST Premium Cosmetics,MINIMALIST,Cosmetics,3,3623.85,CUST266,Alice,Brigade Road Flagship
+ORD1179,INV-20179,2026-05-11,14:16:58,THE FACE SHOP Premium Skincare,THE FACE SHOP,Skincare,3,1228.51,CUST288,Alice,Brigade Road Flagship
+ORD1180,INV-20180,2026-05-04,12:16:58,MAYBELLINE Premium Haircare,MAYBELLINE,Haircare,1,4661.12,CUST214,Alice,Brigade Road Flagship
+ORD1181,INV-20181,2026-05-14,07:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,3,3521.92,CUST127,Bob,Brigade Road Flagship
+ORD1182,INV-20182,2026-05-08,07:16:58,HUDA BEAUTY Premium Haircare,HUDA BEAUTY,Haircare,2,2905.07,CUST214,Charlie,Brigade Road Flagship
+ORD1183,INV-20183,2026-05-06,10:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,1,1148.25,CUST225,Bob,Brigade Road Flagship
+ORD1184,INV-20184,2026-05-12,15:16:58,COSRX Premium Haircare,COSRX,Haircare,4,2933.11,CUST116,Bob,Brigade Road Flagship
+ORD1185,INV-20185,2026-05-06,08:16:58,MINIMALIST Premium Skincare,MINIMALIST,Skincare,3,732.93,CUST131,Alice,Brigade Road Flagship
+ORD1186,INV-20186,2026-05-29,08:16:58,PLUM Premium Cosmetics,PLUM,Cosmetics,4,1138.84,CUST237,Alice,Brigade Road Flagship
+ORD1187,INV-20187,2026-05-11,07:16:58,MAC Premium Haircare,MAC,Haircare,2,1977.91,CUST262,Bob,Brigade Road Flagship
+ORD1188,INV-20188,2026-05-09,07:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,4,1868.62,CUST125,Bob,Brigade Road Flagship
+ORD1189,INV-20189,2026-06-01,10:16:58,SWISS BEAUTY Premium Haircare,SWISS BEAUTY,Haircare,4,1939.97,CUST276,Charlie,Brigade Road Flagship
+ORD1190,INV-20190,2026-05-06,14:16:58,SWISS BEAUTY Premium Fragrance,SWISS BEAUTY,Fragrance,2,3020.82,CUST259,Charlie,Brigade Road Flagship
+ORD1191,INV-20191,2026-05-22,10:16:58,MAC Premium Fragrance,MAC,Fragrance,1,4799.48,CUST290,Charlie,Brigade Road Flagship
+ORD1192,INV-20192,2026-05-10,15:16:58,DERMA CO Premium Fragrance,DERMA CO,Fragrance,3,2917.54,CUST171,Charlie,Brigade Road Flagship
+ORD1193,INV-20193,2026-05-17,12:16:58,COSRX Premium Cosmetics,COSRX,Cosmetics,1,4112.36,CUST156,Bob,Brigade Road Flagship
+ORD1194,INV-20194,2026-05-31,15:16:58,FARMSTAY Premium Haircare,FARMSTAY,Haircare,1,2936.22,CUST162,Alice,Brigade Road Flagship
+ORD1195,INV-20195,2026-05-05,06:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,1,1518.37,CUST256,Bob,Brigade Road Flagship
+ORD1196,INV-20196,2026-05-26,08:16:58,PLUM Premium Haircare,PLUM,Haircare,1,2151.65,CUST135,Alice,Brigade Road Flagship
+ORD1197,INV-20197,2026-05-29,06:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,1,1739.43,CUST169,Alice,Brigade Road Flagship
+ORD1198,INV-20198,2026-06-02,10:16:58,DERMA CO Premium Fragrance,DERMA CO,Fragrance,2,4973.87,CUST193,Charlie,Brigade Road Flagship
+ORD1199,INV-20199,2026-05-23,12:16:58,DERMA CO Premium Fragrance,DERMA CO,Fragrance,2,3643.25,CUST151,Charlie,Brigade Road Flagship
+ORD1200,INV-20200,2026-05-26,14:16:58,PLUM Premium Cosmetics,PLUM,Cosmetics,3,3859.09,CUST210,Alice,Brigade Road Flagship
+ORD1201,INV-20201,2026-05-06,16:16:58,FACES CANADA Premium Cosmetics,FACES CANADA,Cosmetics,4,1409.3,CUST172,Charlie,Brigade Road Flagship
+ORD1202,INV-20202,2026-05-30,06:16:58,MINIMALIST Premium Skincare,MINIMALIST,Skincare,3,3213.09,CUST152,Charlie,Brigade Road Flagship
+ORD1203,INV-20203,2026-05-10,07:16:58,FARMSTAY Premium Cosmetics,FARMSTAY,Cosmetics,3,990.56,CUST219,Alice,Brigade Road Flagship
+ORD1204,INV-20204,2026-05-08,08:16:58,FARMSTAY Premium Haircare,FARMSTAY,Haircare,2,1656.36,CUST199,Charlie,Brigade Road Flagship
+ORD1205,INV-20205,2026-05-14,10:16:58,MAC Premium Cosmetics,MAC,Cosmetics,2,3495.93,CUST209,Charlie,Brigade Road Flagship
+ORD1206,INV-20206,2026-05-14,14:16:58,FARMSTAY Premium Cosmetics,FARMSTAY,Cosmetics,3,3913.95,CUST256,Bob,Brigade Road Flagship
+ORD1207,INV-20207,2026-05-10,06:16:58,LAKME Premium Haircare,LAKME,Haircare,4,2387.1,CUST257,Alice,Brigade Road Flagship
+ORD1208,INV-20208,2026-05-10,08:16:58,COSRX Premium Fragrance,COSRX,Fragrance,3,3158.98,CUST199,Bob,Brigade Road Flagship
+ORD1209,INV-20209,2026-05-06,07:16:58,PLUM Premium Fragrance,PLUM,Fragrance,1,673.78,CUST185,Alice,Brigade Road Flagship
+ORD1210,INV-20210,2026-05-13,16:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,1,2775.1,CUST243,Charlie,Brigade Road Flagship
+ORD1211,INV-20211,2026-05-24,09:16:58,COSRX Premium Fragrance,COSRX,Fragrance,1,3864.24,CUST256,Alice,Brigade Road Flagship
+ORD1212,INV-20212,2026-05-05,12:16:58,FACES CANADA Premium Cosmetics,FACES CANADA,Cosmetics,4,2207.86,CUST255,Alice,Brigade Road Flagship
+ORD1213,INV-20213,2026-05-25,09:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,3,3034.35,CUST298,Charlie,Brigade Road Flagship
+ORD1214,INV-20214,2026-05-28,16:16:58,LAKME Premium Haircare,LAKME,Haircare,4,2693.29,CUST254,Alice,Brigade Road Flagship
+ORD1215,INV-20215,2026-05-19,15:16:58,SWISS BEAUTY Premium Haircare,SWISS BEAUTY,Haircare,1,1981.8,CUST243,Bob,Brigade Road Flagship
+ORD1216,INV-20216,2026-05-06,06:16:58,MAYBELLINE Premium Skincare,MAYBELLINE,Skincare,4,3152.59,CUST230,Charlie,Brigade Road Flagship
+ORD1217,INV-20217,2026-05-06,13:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,1,3853.81,CUST287,Alice,Brigade Road Flagship
+ORD1218,INV-20218,2026-05-12,09:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,3,1289.23,CUST189,Alice,Brigade Road Flagship
+ORD1219,INV-20219,2026-06-01,11:16:58,MAC Premium Fragrance,MAC,Fragrance,1,2960.89,CUST266,Bob,Brigade Road Flagship
+ORD1220,INV-20220,2026-05-18,09:16:58,THE FACE SHOP Premium Fragrance,THE FACE SHOP,Fragrance,2,1877.72,CUST132,Charlie,Brigade Road Flagship
+ORD1221,INV-20221,2026-05-17,08:16:58,PLUM Premium Haircare,PLUM,Haircare,2,2888.71,CUST106,Alice,Brigade Road Flagship
+ORD1222,INV-20222,2026-05-31,10:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,3,1130.1,CUST131,Bob,Brigade Road Flagship
+ORD1223,INV-20223,2026-05-20,12:16:58,FARMSTAY Premium Cosmetics,FARMSTAY,Cosmetics,4,1312.8,CUST239,Bob,Brigade Road Flagship
+ORD1224,INV-20224,2026-05-08,10:16:58,SWISS BEAUTY Premium Haircare,SWISS BEAUTY,Haircare,4,1596.81,CUST128,Alice,Brigade Road Flagship
+ORD1225,INV-20225,2026-05-30,07:16:58,PLUM Premium Haircare,PLUM,Haircare,2,1142.78,CUST126,Alice,Brigade Road Flagship
+ORD1226,INV-20226,2026-05-27,16:16:58,LAKME Premium Fragrance,LAKME,Fragrance,4,4346.35,CUST258,Alice,Brigade Road Flagship
+ORD1227,INV-20227,2026-05-18,08:16:58,MAYBELLINE Premium Haircare,MAYBELLINE,Haircare,3,3533.29,CUST125,Charlie,Brigade Road Flagship
+ORD1228,INV-20228,2026-05-17,11:16:58,FACES CANADA Premium Skincare,FACES CANADA,Skincare,1,2309.66,CUST203,Charlie,Brigade Road Flagship
+ORD1229,INV-20229,2026-05-07,07:16:58,COSRX Premium Skincare,COSRX,Skincare,4,4385.14,CUST208,Bob,Brigade Road Flagship
+ORD1230,INV-20230,2026-05-26,07:16:58,PLUM Premium Cosmetics,PLUM,Cosmetics,4,1506.68,CUST293,Charlie,Brigade Road Flagship
+ORD1231,INV-20231,2026-05-15,10:16:58,FARMSTAY Premium Cosmetics,FARMSTAY,Cosmetics,4,1269.7,CUST103,Charlie,Brigade Road Flagship
+ORD1232,INV-20232,2026-05-28,15:16:58,LAKME Premium Fragrance,LAKME,Fragrance,1,1053.73,CUST139,Charlie,Brigade Road Flagship
+ORD1233,INV-20233,2026-05-25,09:16:58,MAYBELLINE Premium Cosmetics,MAYBELLINE,Cosmetics,4,2829.85,CUST211,Bob,Brigade Road Flagship
+ORD1234,INV-20234,2026-05-07,11:16:58,SWISS BEAUTY Premium Haircare,SWISS BEAUTY,Haircare,1,1430.92,CUST297,Alice,Brigade Road Flagship
+ORD1235,INV-20235,2026-05-13,13:16:58,PLUM Premium Haircare,PLUM,Haircare,4,4747.67,CUST236,Charlie,Brigade Road Flagship
+ORD1236,INV-20236,2026-05-28,13:16:58,SWISS BEAUTY Premium Skincare,SWISS BEAUTY,Skincare,2,686.33,CUST267,Alice,Brigade Road Flagship
+ORD1237,INV-20237,2026-05-07,06:16:58,MAC Premium Haircare,MAC,Haircare,4,2933.71,CUST144,Alice,Brigade Road Flagship
+ORD1238,INV-20238,2026-05-04,16:16:58,PLUM Premium Fragrance,PLUM,Fragrance,1,2096.23,CUST152,Bob,Brigade Road Flagship
+ORD1239,INV-20239,2026-05-16,14:16:58,FACES CANADA Premium Cosmetics,FACES CANADA,Cosmetics,2,2691.86,CUST146,Alice,Brigade Road Flagship
+ORD1240,INV-20240,2026-05-04,11:16:58,PLUM Premium Skincare,PLUM,Skincare,2,2235.25,CUST245,Alice,Brigade Road Flagship
+ORD1241,INV-20241,2026-06-02,07:16:58,MAYBELLINE Premium Haircare,MAYBELLINE,Haircare,4,3574.69,CUST275,Alice,Brigade Road Flagship
+ORD1242,INV-20242,2026-06-02,15:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,1,2197.98,CUST186,Charlie,Brigade Road Flagship
+ORD1243,INV-20243,2026-05-21,12:16:58,MAC Premium Cosmetics,MAC,Cosmetics,2,4095.71,CUST155,Alice,Brigade Road Flagship
+ORD1244,INV-20244,2026-05-27,06:16:58,THE FACE SHOP Premium Skincare,THE FACE SHOP,Skincare,3,3348.78,CUST147,Charlie,Brigade Road Flagship
+ORD1245,INV-20245,2026-05-14,08:16:58,SWISS BEAUTY Premium Skincare,SWISS BEAUTY,Skincare,1,928.26,CUST164,Bob,Brigade Road Flagship
+ORD1246,INV-20246,2026-06-02,12:16:58,COSRX Premium Haircare,COSRX,Haircare,2,2140.47,CUST260,Bob,Brigade Road Flagship
+ORD1247,INV-20247,2026-05-06,12:16:58,FARMSTAY Premium Skincare,FARMSTAY,Skincare,2,540.84,CUST237,Charlie,Brigade Road Flagship
+ORD1248,INV-20248,2026-05-20,16:16:58,FACES CANADA Premium Haircare,FACES CANADA,Haircare,2,4257.46,CUST287,Alice,Brigade Road Flagship
+ORD1249,INV-20249,2026-05-23,07:16:58,THE FACE SHOP Premium Skincare,THE FACE SHOP,Skincare,2,4003.24,CUST179,Bob,Brigade Road Flagship
+ORD1250,INV-20250,2026-05-20,12:16:58,THE FACE SHOP Premium Fragrance,THE FACE SHOP,Fragrance,3,4775.48,CUST180,Alice,Brigade Road Flagship
+ORD1251,INV-20251,2026-05-06,09:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,3,3355.1,CUST133,Charlie,Brigade Road Flagship
+ORD1252,INV-20252,2026-05-12,16:16:58,LAKME Premium Fragrance,LAKME,Fragrance,2,1448.69,CUST204,Charlie,Brigade Road Flagship
+ORD1253,INV-20253,2026-05-19,09:16:58,COSRX Premium Skincare,COSRX,Skincare,1,4668.1,CUST285,Charlie,Brigade Road Flagship
+ORD1254,INV-20254,2026-05-15,16:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,4,1797.64,CUST238,Charlie,Brigade Road Flagship
+ORD1255,INV-20255,2026-05-19,08:16:58,HUDA BEAUTY Premium Fragrance,HUDA BEAUTY,Fragrance,3,621.19,CUST270,Bob,Brigade Road Flagship
+ORD1256,INV-20256,2026-05-20,11:16:58,MAYBELLINE Premium Haircare,MAYBELLINE,Haircare,4,2079.6,CUST269,Bob,Brigade Road Flagship
+ORD1257,INV-20257,2026-05-30,12:16:58,SWISS BEAUTY Premium Skincare,SWISS BEAUTY,Skincare,4,800.35,CUST134,Alice,Brigade Road Flagship
+ORD1258,INV-20258,2026-05-21,06:16:58,LAKME Premium Fragrance,LAKME,Fragrance,3,2371.86,CUST208,Bob,Brigade Road Flagship
+ORD1259,INV-20259,2026-05-04,10:16:58,SWISS BEAUTY Premium Skincare,SWISS BEAUTY,Skincare,3,1072.11,CUST226,Bob,Brigade Road Flagship
+ORD1260,INV-20260,2026-05-19,12:16:58,FACES CANADA Premium Haircare,FACES CANADA,Haircare,4,2839.67,CUST176,Alice,Brigade Road Flagship
+ORD1261,INV-20261,2026-05-28,07:16:58,FACES CANADA Premium Cosmetics,FACES CANADA,Cosmetics,4,4851.04,CUST193,Bob,Brigade Road Flagship
+ORD1262,INV-20262,2026-05-30,16:16:58,DERMA CO Premium Fragrance,DERMA CO,Fragrance,4,703.2,CUST204,Alice,Brigade Road Flagship
+ORD1263,INV-20263,2026-05-11,10:16:58,MINIMALIST Premium Fragrance,MINIMALIST,Fragrance,1,774.51,CUST276,Alice,Brigade Road Flagship
+ORD1264,INV-20264,2026-05-15,16:16:58,FARMSTAY Premium Skincare,FARMSTAY,Skincare,4,4890.31,CUST218,Bob,Brigade Road Flagship
+ORD1265,INV-20265,2026-05-31,10:16:58,THE FACE SHOP Premium Fragrance,THE FACE SHOP,Fragrance,4,4697.23,CUST273,Bob,Brigade Road Flagship
+ORD1266,INV-20266,2026-05-23,07:16:58,SWISS BEAUTY Premium Haircare,SWISS BEAUTY,Haircare,3,2028.73,CUST131,Bob,Brigade Road Flagship
+ORD1267,INV-20267,2026-05-15,06:16:58,HUDA BEAUTY Premium Cosmetics,HUDA BEAUTY,Cosmetics,3,1644.58,CUST160,Charlie,Brigade Road Flagship
+ORD1268,INV-20268,2026-05-07,12:16:58,MAC Premium Fragrance,MAC,Fragrance,3,1085.91,CUST246,Alice,Brigade Road Flagship
+ORD1269,INV-20269,2026-05-09,16:16:58,MAYBELLINE Premium Haircare,MAYBELLINE,Haircare,1,2559.96,CUST217,Alice,Brigade Road Flagship
+ORD1270,INV-20270,2026-05-04,08:16:58,FACES CANADA Premium Fragrance,FACES CANADA,Fragrance,1,4631.16,CUST258,Alice,Brigade Road Flagship
+ORD1271,INV-20271,2026-05-08,14:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,2,3659.66,CUST272,Bob,Brigade Road Flagship
+ORD1272,INV-20272,2026-05-18,11:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,3,2432.25,CUST125,Alice,Brigade Road Flagship
+ORD1273,INV-20273,2026-05-07,10:16:58,LAKME Premium Cosmetics,LAKME,Cosmetics,2,1471.54,CUST217,Charlie,Brigade Road Flagship
+ORD1274,INV-20274,2026-05-29,14:16:58,FARMSTAY Premium Haircare,FARMSTAY,Haircare,2,2525.91,CUST131,Charlie,Brigade Road Flagship
+ORD1275,INV-20275,2026-05-13,15:16:58,PLUM Premium Cosmetics,PLUM,Cosmetics,3,2656.38,CUST254,Alice,Brigade Road Flagship
+ORD1276,INV-20276,2026-05-23,16:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,1,4320.36,CUST122,Charlie,Brigade Road Flagship
+ORD1277,INV-20277,2026-05-15,16:16:58,HUDA BEAUTY Premium Skincare,HUDA BEAUTY,Skincare,4,2600.73,CUST173,Alice,Brigade Road Flagship
+ORD1278,INV-20278,2026-05-08,12:16:58,MAC Premium Haircare,MAC,Haircare,2,1872.11,CUST172,Charlie,Brigade Road Flagship
+ORD1279,INV-20279,2026-05-27,06:16:58,LAKME Premium Cosmetics,LAKME,Cosmetics,1,4119.11,CUST238,Bob,Brigade Road Flagship
+ORD1280,INV-20280,2026-05-03,06:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,3,4145.16,CUST241,Alice,Brigade Road Flagship
+ORD1281,INV-20281,2026-05-31,16:16:58,PLUM Premium Skincare,PLUM,Skincare,4,509.79,CUST125,Alice,Brigade Road Flagship
+ORD1282,INV-20282,2026-05-27,08:16:58,DERMA CO Premium Fragrance,DERMA CO,Fragrance,1,2222.56,CUST259,Alice,Brigade Road Flagship
+ORD1283,INV-20283,2026-05-25,06:16:58,FACES CANADA Premium Skincare,FACES CANADA,Skincare,4,3839.68,CUST145,Charlie,Brigade Road Flagship
+ORD1284,INV-20284,2026-05-03,13:16:58,HUDA BEAUTY Premium Fragrance,HUDA BEAUTY,Fragrance,1,1608.94,CUST163,Bob,Brigade Road Flagship
+ORD1285,INV-20285,2026-05-08,08:16:58,FARMSTAY Premium Haircare,FARMSTAY,Haircare,1,4555.95,CUST261,Bob,Brigade Road Flagship
+ORD1286,INV-20286,2026-05-11,10:16:58,FARMSTAY Premium Haircare,FARMSTAY,Haircare,1,4625.41,CUST128,Charlie,Brigade Road Flagship
+ORD1287,INV-20287,2026-05-24,11:16:58,FARMSTAY Premium Haircare,FARMSTAY,Haircare,3,1881.62,CUST205,Alice,Brigade Road Flagship
+ORD1288,INV-20288,2026-05-09,15:16:58,MAC Premium Cosmetics,MAC,Cosmetics,3,1392.05,CUST107,Bob,Brigade Road Flagship
+ORD1289,INV-20289,2026-06-02,11:16:58,SWISS BEAUTY Premium Fragrance,SWISS BEAUTY,Fragrance,4,1883.25,CUST261,Alice,Brigade Road Flagship
+ORD1290,INV-20290,2026-05-04,06:16:58,MAC Premium Haircare,MAC,Haircare,4,4394.66,CUST279,Bob,Brigade Road Flagship
+ORD1291,INV-20291,2026-05-14,14:16:58,HUDA BEAUTY Premium Fragrance,HUDA BEAUTY,Fragrance,4,3779.56,CUST246,Charlie,Brigade Road Flagship
+ORD1292,INV-20292,2026-05-20,11:16:58,LAKME Premium Haircare,LAKME,Haircare,2,4143.62,CUST180,Bob,Brigade Road Flagship
+ORD1293,INV-20293,2026-05-30,13:16:58,HUDA BEAUTY Premium Haircare,HUDA BEAUTY,Haircare,1,963.28,CUST212,Bob,Brigade Road Flagship
+ORD1294,INV-20294,2026-05-24,09:16:58,FACES CANADA Premium Skincare,FACES CANADA,Skincare,3,1289.97,CUST190,Alice,Brigade Road Flagship
+ORD1295,INV-20295,2026-05-28,14:16:58,THE FACE SHOP Premium Cosmetics,THE FACE SHOP,Cosmetics,3,2948.1,CUST278,Charlie,Brigade Road Flagship
+ORD1296,INV-20296,2026-05-10,08:16:58,MAC Premium Fragrance,MAC,Fragrance,4,2025.05,CUST122,Charlie,Brigade Road Flagship
+ORD1297,INV-20297,2026-05-23,11:16:58,FACES CANADA Premium Fragrance,FACES CANADA,Fragrance,1,1914.07,CUST162,Charlie,Brigade Road Flagship
+ORD1298,INV-20298,2026-05-17,06:16:58,HUDA BEAUTY Premium Fragrance,HUDA BEAUTY,Fragrance,2,3049.16,CUST203,Alice,Brigade Road Flagship
+ORD1299,INV-20299,2026-05-26,06:16:58,LAKME Premium Haircare,LAKME,Haircare,1,2212.08,CUST214,Bob,Brigade Road Flagship
+ORD1300,INV-20300,2026-05-17,16:16:58,PLUM Premium Skincare,PLUM,Skincare,3,800.45,CUST161,Bob,Brigade Road Flagship
+ORD1301,INV-20301,2026-05-10,08:16:58,LAKME Premium Cosmetics,LAKME,Cosmetics,2,1243.55,CUST196,Charlie,Brigade Road Flagship
+ORD1302,INV-20302,2026-05-29,12:16:58,FARMSTAY Premium Cosmetics,FARMSTAY,Cosmetics,2,2616.74,CUST267,Alice,Brigade Road Flagship
+ORD1303,INV-20303,2026-05-31,10:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,4,4366.08,CUST286,Alice,Brigade Road Flagship
+ORD1304,INV-20304,2026-05-30,13:16:58,THE FACE SHOP Premium Fragrance,THE FACE SHOP,Fragrance,1,814.74,CUST179,Charlie,Brigade Road Flagship
+ORD1305,INV-20305,2026-05-20,12:16:58,HUDA BEAUTY Premium Haircare,HUDA BEAUTY,Haircare,1,855.73,CUST156,Charlie,Brigade Road Flagship
+ORD1306,INV-20306,2026-05-03,09:16:58,FARMSTAY Premium Skincare,FARMSTAY,Skincare,4,2519.52,CUST163,Charlie,Brigade Road Flagship
+ORD1307,INV-20307,2026-05-03,11:16:58,HUDA BEAUTY Premium Haircare,HUDA BEAUTY,Haircare,4,3538.72,CUST110,Charlie,Brigade Road Flagship
+ORD1308,INV-20308,2026-05-24,12:16:58,SWISS BEAUTY Premium Haircare,SWISS BEAUTY,Haircare,2,2286.73,CUST207,Alice,Brigade Road Flagship
+ORD1309,INV-20309,2026-05-07,08:16:58,MINIMALIST Premium Skincare,MINIMALIST,Skincare,2,3600.66,CUST228,Bob,Brigade Road Flagship
+ORD1310,INV-20310,2026-05-06,12:16:58,PLUM Premium Skincare,PLUM,Skincare,2,2773.35,CUST127,Bob,Brigade Road Flagship
+ORD1311,INV-20311,2026-05-17,12:16:58,FACES CANADA Premium Fragrance,FACES CANADA,Fragrance,2,1553.27,CUST149,Bob,Brigade Road Flagship
+ORD1312,INV-20312,2026-05-27,06:16:58,PLUM Premium Fragrance,PLUM,Fragrance,4,1882.83,CUST227,Charlie,Brigade Road Flagship
+ORD1313,INV-20313,2026-05-23,11:16:58,MAYBELLINE Premium Skincare,MAYBELLINE,Skincare,4,870.04,CUST164,Bob,Brigade Road Flagship
+ORD1314,INV-20314,2026-05-05,12:16:58,FACES CANADA Premium Haircare,FACES CANADA,Haircare,2,4637.98,CUST170,Bob,Brigade Road Flagship
+ORD1315,INV-20315,2026-06-01,13:16:58,LAKME Premium Cosmetics,LAKME,Cosmetics,3,3688.43,CUST239,Bob,Brigade Road Flagship
+ORD1316,INV-20316,2026-05-08,14:16:58,FARMSTAY Premium Haircare,FARMSTAY,Haircare,1,1053.61,CUST255,Bob,Brigade Road Flagship
+ORD1317,INV-20317,2026-05-13,14:16:58,SWISS BEAUTY Premium Fragrance,SWISS BEAUTY,Fragrance,4,3535.01,CUST271,Charlie,Brigade Road Flagship
+ORD1318,INV-20318,2026-05-25,08:16:58,HUDA BEAUTY Premium Haircare,HUDA BEAUTY,Haircare,1,2741.11,CUST219,Bob,Brigade Road Flagship
+ORD1319,INV-20319,2026-05-15,07:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,1,2050.74,CUST291,Bob,Brigade Road Flagship
+ORD1320,INV-20320,2026-05-13,15:16:58,HUDA BEAUTY Premium Haircare,HUDA BEAUTY,Haircare,1,3432.65,CUST285,Charlie,Brigade Road Flagship
+ORD1321,INV-20321,2026-05-25,12:16:58,COSRX Premium Fragrance,COSRX,Fragrance,2,3066.01,CUST169,Alice,Brigade Road Flagship
+ORD1322,INV-20322,2026-05-31,14:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,2,1485.17,CUST115,Bob,Brigade Road Flagship
+ORD1323,INV-20323,2026-05-12,15:16:58,HUDA BEAUTY Premium Skincare,HUDA BEAUTY,Skincare,4,3803.75,CUST125,Charlie,Brigade Road Flagship
+ORD1324,INV-20324,2026-05-31,16:16:58,MAYBELLINE Premium Cosmetics,MAYBELLINE,Cosmetics,1,3578.43,CUST291,Charlie,Brigade Road Flagship
+ORD1325,INV-20325,2026-06-02,10:16:58,PLUM Premium Fragrance,PLUM,Fragrance,2,4007.07,CUST213,Bob,Brigade Road Flagship
+ORD1326,INV-20326,2026-06-01,08:16:58,PLUM Premium Skincare,PLUM,Skincare,2,4465.41,CUST145,Alice,Brigade Road Flagship
+ORD1327,INV-20327,2026-05-27,07:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,4,3347.35,CUST276,Charlie,Brigade Road Flagship
+ORD1328,INV-20328,2026-05-11,07:16:58,COSRX Premium Haircare,COSRX,Haircare,2,3328.34,CUST273,Bob,Brigade Road Flagship
+ORD1329,INV-20329,2026-05-10,11:16:58,MAYBELLINE Premium Haircare,MAYBELLINE,Haircare,2,4716.63,CUST103,Alice,Brigade Road Flagship
+ORD1330,INV-20330,2026-05-04,12:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,2,2895.92,CUST268,Charlie,Brigade Road Flagship
+ORD1331,INV-20331,2026-05-04,14:16:58,LAKME Premium Skincare,LAKME,Skincare,3,2445.42,CUST174,Bob,Brigade Road Flagship
+ORD1332,INV-20332,2026-06-01,15:16:58,THE FACE SHOP Premium Skincare,THE FACE SHOP,Skincare,2,4336.59,CUST260,Alice,Brigade Road Flagship
+ORD1333,INV-20333,2026-05-12,14:16:58,FACES CANADA Premium Cosmetics,FACES CANADA,Cosmetics,4,3637.36,CUST115,Bob,Brigade Road Flagship
+ORD1334,INV-20334,2026-05-17,10:16:58,MINIMALIST Premium Fragrance,MINIMALIST,Fragrance,3,518.03,CUST287,Alice,Brigade Road Flagship
+ORD1335,INV-20335,2026-05-07,13:16:58,LAKME Premium Haircare,LAKME,Haircare,2,2925.29,CUST140,Alice,Brigade Road Flagship
+ORD1336,INV-20336,2026-05-20,10:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,4,2388.54,CUST192,Alice,Brigade Road Flagship
+ORD1337,INV-20337,2026-05-26,15:16:58,MAC Premium Skincare,MAC,Skincare,3,1022.44,CUST226,Charlie,Brigade Road Flagship
+ORD1338,INV-20338,2026-05-11,11:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,4,2034.11,CUST253,Alice,Brigade Road Flagship
+ORD1339,INV-20339,2026-05-24,06:16:58,DERMA CO Premium Fragrance,DERMA CO,Fragrance,2,3502.48,CUST198,Bob,Brigade Road Flagship
+ORD1340,INV-20340,2026-05-29,07:16:58,PLUM Premium Fragrance,PLUM,Fragrance,4,2634.62,CUST293,Alice,Brigade Road Flagship
+ORD1341,INV-20341,2026-05-17,14:16:58,FARMSTAY Premium Skincare,FARMSTAY,Skincare,1,2593.17,CUST296,Bob,Brigade Road Flagship
+ORD1342,INV-20342,2026-05-10,08:16:58,DERMA CO Premium Cosmetics,DERMA CO,Cosmetics,4,829.9,CUST218,Alice,Brigade Road Flagship
+ORD1343,INV-20343,2026-05-25,10:16:58,FACES CANADA Premium Fragrance,FACES CANADA,Fragrance,1,1223.29,CUST145,Bob,Brigade Road Flagship
+ORD1344,INV-20344,2026-05-21,09:16:58,SWISS BEAUTY Premium Fragrance,SWISS BEAUTY,Fragrance,2,701.91,CUST192,Bob,Brigade Road Flagship
+ORD1345,INV-20345,2026-05-15,10:16:58,MAC Premium Cosmetics,MAC,Cosmetics,4,1258.28,CUST136,Charlie,Brigade Road Flagship
+ORD1346,INV-20346,2026-05-25,08:16:58,MINIMALIST Premium Fragrance,MINIMALIST,Fragrance,1,2724.16,CUST165,Charlie,Brigade Road Flagship
+ORD1347,INV-20347,2026-05-24,06:16:58,MAC Premium Haircare,MAC,Haircare,4,775.33,CUST270,Alice,Brigade Road Flagship
+ORD1348,INV-20348,2026-06-01,09:16:58,FACES CANADA Premium Fragrance,FACES CANADA,Fragrance,1,2544.06,CUST224,Bob,Brigade Road Flagship
+ORD1349,INV-20349,2026-05-28,15:16:58,MAC Premium Haircare,MAC,Haircare,2,4766.3,CUST123,Charlie,Brigade Road Flagship
+ORD1350,INV-20350,2026-05-03,11:16:58,MAYBELLINE Premium Skincare,MAYBELLINE,Skincare,3,2623.88,CUST249,Bob,Brigade Road Flagship
+ORD1351,INV-20351,2026-05-10,12:16:58,THE FACE SHOP Premium Cosmetics,THE FACE SHOP,Cosmetics,2,698.77,CUST115,Bob,Brigade Road Flagship
+ORD1352,INV-20352,2026-05-23,07:16:58,MAYBELLINE Premium Haircare,MAYBELLINE,Haircare,4,4156.53,CUST219,Alice,Brigade Road Flagship
+ORD1353,INV-20353,2026-05-30,13:16:58,HUDA BEAUTY Premium Cosmetics,HUDA BEAUTY,Cosmetics,2,4029.47,CUST159,Bob,Brigade Road Flagship
+ORD1354,INV-20354,2026-05-10,07:16:58,HUDA BEAUTY Premium Haircare,HUDA BEAUTY,Haircare,1,3727.92,CUST255,Charlie,Brigade Road Flagship
+ORD1355,INV-20355,2026-05-17,06:16:58,MAC Premium Fragrance,MAC,Fragrance,4,1400.5,CUST116,Charlie,Brigade Road Flagship
+ORD1356,INV-20356,2026-05-04,10:16:58,PLUM Premium Cosmetics,PLUM,Cosmetics,3,953.01,CUST114,Alice,Brigade Road Flagship
+ORD1357,INV-20357,2026-05-29,08:16:58,MINIMALIST Premium Haircare,MINIMALIST,Haircare,4,2086.3,CUST126,Bob,Brigade Road Flagship
+ORD1358,INV-20358,2026-05-25,13:16:58,FACES CANADA Premium Fragrance,FACES CANADA,Fragrance,1,2641.93,CUST106,Charlie,Brigade Road Flagship
+ORD1359,INV-20359,2026-05-25,06:16:58,LAKME Premium Haircare,LAKME,Haircare,1,1904.51,CUST228,Bob,Brigade Road Flagship
+ORD1360,INV-20360,2026-05-09,07:16:58,FARMSTAY Premium Haircare,FARMSTAY,Haircare,1,4401.49,CUST280,Bob,Brigade Road Flagship
+ORD1361,INV-20361,2026-05-05,11:16:58,DERMA CO Premium Fragrance,DERMA CO,Fragrance,2,801.98,CUST208,Bob,Brigade Road Flagship
+ORD1362,INV-20362,2026-05-11,14:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,2,561.33,CUST192,Bob,Brigade Road Flagship
+ORD1363,INV-20363,2026-05-23,09:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,3,901.71,CUST183,Alice,Brigade Road Flagship
+ORD1364,INV-20364,2026-05-19,16:16:58,FACES CANADA Premium Skincare,FACES CANADA,Skincare,3,2770.6,CUST207,Charlie,Brigade Road Flagship
+ORD1365,INV-20365,2026-05-21,08:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,4,2669.42,CUST202,Alice,Brigade Road Flagship
+ORD1366,INV-20366,2026-05-25,07:16:58,MAC Premium Cosmetics,MAC,Cosmetics,2,3924.49,CUST297,Alice,Brigade Road Flagship
+ORD1367,INV-20367,2026-05-20,08:16:58,THE FACE SHOP Premium Fragrance,THE FACE SHOP,Fragrance,4,885.38,CUST135,Bob,Brigade Road Flagship
+ORD1368,INV-20368,2026-05-27,10:16:58,THE FACE SHOP Premium Skincare,THE FACE SHOP,Skincare,3,1609.55,CUST130,Bob,Brigade Road Flagship
+ORD1369,INV-20369,2026-05-14,07:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,2,4426.75,CUST125,Charlie,Brigade Road Flagship
+ORD1370,INV-20370,2026-05-31,07:16:58,LAKME Premium Fragrance,LAKME,Fragrance,3,4273.67,CUST203,Charlie,Brigade Road Flagship
+ORD1371,INV-20371,2026-05-17,13:16:58,MAYBELLINE Premium Haircare,MAYBELLINE,Haircare,2,4757.85,CUST123,Charlie,Brigade Road Flagship
+ORD1372,INV-20372,2026-06-01,12:16:58,FACES CANADA Premium Fragrance,FACES CANADA,Fragrance,2,4318.45,CUST288,Bob,Brigade Road Flagship
+ORD1373,INV-20373,2026-05-05,12:16:58,HUDA BEAUTY Premium Skincare,HUDA BEAUTY,Skincare,3,4909.15,CUST283,Charlie,Brigade Road Flagship
+ORD1374,INV-20374,2026-05-17,11:16:58,DERMA CO Premium Cosmetics,DERMA CO,Cosmetics,4,740.85,CUST267,Bob,Brigade Road Flagship
+ORD1375,INV-20375,2026-05-17,12:16:58,MAC Premium Haircare,MAC,Haircare,2,1376.39,CUST225,Charlie,Brigade Road Flagship
+ORD1376,INV-20376,2026-05-23,06:16:58,LAKME Premium Cosmetics,LAKME,Cosmetics,2,2492.84,CUST290,Charlie,Brigade Road Flagship
+ORD1377,INV-20377,2026-05-16,15:16:58,DERMA CO Premium Cosmetics,DERMA CO,Cosmetics,3,1363.89,CUST249,Alice,Brigade Road Flagship
+ORD1378,INV-20378,2026-05-04,15:16:58,SWISS BEAUTY Premium Haircare,SWISS BEAUTY,Haircare,4,1423.68,CUST265,Charlie,Brigade Road Flagship
+ORD1379,INV-20379,2026-05-21,13:16:58,FARMSTAY Premium Cosmetics,FARMSTAY,Cosmetics,3,3752.58,CUST180,Alice,Brigade Road Flagship
+ORD1380,INV-20380,2026-05-17,12:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,2,1623.24,CUST224,Charlie,Brigade Road Flagship
+ORD1381,INV-20381,2026-05-15,08:16:58,HUDA BEAUTY Premium Fragrance,HUDA BEAUTY,Fragrance,4,4602.11,CUST121,Charlie,Brigade Road Flagship
+ORD1382,INV-20382,2026-05-25,07:16:58,DERMA CO Premium Haircare,DERMA CO,Haircare,4,2929.7,CUST169,Charlie,Brigade Road Flagship
+ORD1383,INV-20383,2026-06-02,07:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,4,2375.64,CUST113,Charlie,Brigade Road Flagship
+ORD1384,INV-20384,2026-05-30,12:16:58,FARMSTAY Premium Skincare,FARMSTAY,Skincare,1,1290.0,CUST260,Alice,Brigade Road Flagship
+ORD1385,INV-20385,2026-05-15,12:16:58,MINIMALIST Premium Cosmetics,MINIMALIST,Cosmetics,1,4936.76,CUST203,Charlie,Brigade Road Flagship
+ORD1386,INV-20386,2026-05-05,09:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,3,3777.73,CUST205,Charlie,Brigade Road Flagship
+ORD1387,INV-20387,2026-05-10,10:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,1,2682.77,CUST212,Charlie,Brigade Road Flagship
+ORD1388,INV-20388,2026-05-20,15:16:58,MINIMALIST Premium Cosmetics,MINIMALIST,Cosmetics,3,3738.02,CUST214,Bob,Brigade Road Flagship
+ORD1389,INV-20389,2026-05-17,11:16:58,MINIMALIST Premium Skincare,MINIMALIST,Skincare,1,1861.08,CUST222,Charlie,Brigade Road Flagship
+ORD1390,INV-20390,2026-05-10,11:16:58,PLUM Premium Fragrance,PLUM,Fragrance,2,3948.47,CUST151,Alice,Brigade Road Flagship
+ORD1391,INV-20391,2026-05-11,06:16:58,SWISS BEAUTY Premium Skincare,SWISS BEAUTY,Skincare,1,2453.35,CUST286,Bob,Brigade Road Flagship
+ORD1392,INV-20392,2026-05-17,11:16:58,LAKME Premium Fragrance,LAKME,Fragrance,1,1457.77,CUST119,Alice,Brigade Road Flagship
+ORD1393,INV-20393,2026-05-10,13:16:58,DERMA CO Premium Skincare,DERMA CO,Skincare,3,3572.91,CUST299,Charlie,Brigade Road Flagship
+ORD1394,INV-20394,2026-05-17,14:16:58,DERMA CO Premium Fragrance,DERMA CO,Fragrance,4,3779.98,CUST111,Charlie,Brigade Road Flagship
+ORD1395,INV-20395,2026-05-06,15:16:58,DERMA CO Premium Fragrance,DERMA CO,Fragrance,1,535.2,CUST185,Alice,Brigade Road Flagship
+ORD1396,INV-20396,2026-05-21,08:16:58,FACES CANADA Premium Skincare,FACES CANADA,Skincare,3,1093.79,CUST166,Bob,Brigade Road Flagship
+ORD1397,INV-20397,2026-05-08,14:16:58,LAKME Premium Fragrance,LAKME,Fragrance,2,1594.98,CUST168,Bob,Brigade Road Flagship
+ORD1398,INV-20398,2026-05-29,15:16:58,LAKME Premium Fragrance,LAKME,Fragrance,3,1569.28,CUST212,Charlie,Brigade Road Flagship
+ORD1399,INV-20399,2026-05-29,06:16:58,DERMA CO Premium Fragrance,DERMA CO,Fragrance,2,2068.61,CUST293,Alice,Brigade Road Flagship
+ORD1400,INV-20400,2026-05-24,06:16:58,MAC Premium Cosmetics,MAC,Cosmetics,4,674.75,CUST296,Bob,Brigade Road Flagship
+ORD1401,INV-20401,2026-05-17,16:16:58,MINIMALIST Premium Skincare,MINIMALIST,Skincare,3,4718.4,CUST192,Charlie,Brigade Road Flagship
+ORD1402,INV-20402,2026-05-03,14:16:58,HUDA BEAUTY Premium Cosmetics,HUDA BEAUTY,Cosmetics,2,4672.69,CUST283,Alice,Brigade Road Flagship
+ORD1403,INV-20403,2026-05-19,07:16:58,COSRX Premium Cosmetics,COSRX,Cosmetics,1,4582.17,CUST114,Bob,Brigade Road Flagship
+ORD1404,INV-20404,2026-05-09,14:16:58,HUDA BEAUTY Premium Haircare,HUDA BEAUTY,Haircare,1,2995.7,CUST222,Bob,Brigade Road Flagship
+ORD1405,INV-20405,2026-05-20,08:16:58,COSRX Premium Fragrance,COSRX,Fragrance,1,3568.83,CUST266,Alice,Brigade Road Flagship
+ORD1406,INV-20406,2026-05-03,08:16:58,LAKME Premium Fragrance,LAKME,Fragrance,2,4009.99,CUST107,Bob,Brigade Road Flagship
+ORD1407,INV-20407,2026-05-09,16:16:58,MAYBELLINE Premium Cosmetics,MAYBELLINE,Cosmetics,1,1348.5,CUST245,Bob,Brigade Road Flagship
+ORD1408,INV-20408,2026-05-14,08:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,3,2102.86,CUST185,Bob,Brigade Road Flagship
+ORD1409,INV-20409,2026-05-17,16:16:58,FACES CANADA Premium Haircare,FACES CANADA,Haircare,1,2748.86,CUST185,Alice,Brigade Road Flagship
+ORD1410,INV-20410,2026-05-26,07:16:58,FARMSTAY Premium Cosmetics,FARMSTAY,Cosmetics,3,3313.34,CUST141,Alice,Brigade Road Flagship
+ORD1411,INV-20411,2026-05-22,09:16:58,HUDA BEAUTY Premium Fragrance,HUDA BEAUTY,Fragrance,1,2889.74,CUST218,Bob,Brigade Road Flagship
+ORD1412,INV-20412,2026-05-22,12:16:58,HUDA BEAUTY Premium Cosmetics,HUDA BEAUTY,Cosmetics,1,2105.75,CUST284,Charlie,Brigade Road Flagship
+ORD1413,INV-20413,2026-05-25,06:16:58,PLUM Premium Skincare,PLUM,Skincare,4,3339.19,CUST194,Charlie,Brigade Road Flagship
+ORD1414,INV-20414,2026-05-16,06:16:58,HUDA BEAUTY Premium Haircare,HUDA BEAUTY,Haircare,4,1900.77,CUST291,Bob,Brigade Road Flagship
+ORD1415,INV-20415,2026-05-31,11:16:58,FARMSTAY Premium Skincare,FARMSTAY,Skincare,1,3651.33,CUST299,Alice,Brigade Road Flagship
+ORD1416,INV-20416,2026-05-26,12:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,3,1062.36,CUST155,Charlie,Brigade Road Flagship
+ORD1417,INV-20417,2026-05-07,14:16:58,COSRX Premium Skincare,COSRX,Skincare,4,4170.59,CUST174,Bob,Brigade Road Flagship
+ORD1418,INV-20418,2026-05-29,14:16:58,DERMA CO Premium Haircare,DERMA CO,Haircare,1,1073.65,CUST184,Charlie,Brigade Road Flagship
+ORD1419,INV-20419,2026-05-15,10:16:58,FACES CANADA Premium Haircare,FACES CANADA,Haircare,1,4944.76,CUST220,Alice,Brigade Road Flagship
+ORD1420,INV-20420,2026-05-12,09:16:58,THE FACE SHOP Premium Fragrance,THE FACE SHOP,Fragrance,2,3916.51,CUST160,Charlie,Brigade Road Flagship
+ORD1421,INV-20421,2026-05-30,15:16:58,FACES CANADA Premium Skincare,FACES CANADA,Skincare,2,900.13,CUST145,Alice,Brigade Road Flagship
+ORD1422,INV-20422,2026-05-23,08:16:58,PLUM Premium Haircare,PLUM,Haircare,3,1662.91,CUST208,Bob,Brigade Road Flagship
+ORD1423,INV-20423,2026-05-27,08:16:58,MAYBELLINE Premium Cosmetics,MAYBELLINE,Cosmetics,2,3131.79,CUST122,Alice,Brigade Road Flagship
+ORD1424,INV-20424,2026-05-16,09:16:58,COSRX Premium Fragrance,COSRX,Fragrance,2,3281.58,CUST143,Alice,Brigade Road Flagship
+ORD1425,INV-20425,2026-05-26,06:16:58,FARMSTAY Premium Cosmetics,FARMSTAY,Cosmetics,1,1790.46,CUST180,Bob,Brigade Road Flagship
+ORD1426,INV-20426,2026-05-23,07:16:58,COSRX Premium Fragrance,COSRX,Fragrance,2,2593.84,CUST297,Alice,Brigade Road Flagship
+ORD1427,INV-20427,2026-05-28,10:16:58,COSRX Premium Skincare,COSRX,Skincare,1,1563.01,CUST185,Charlie,Brigade Road Flagship
+ORD1428,INV-20428,2026-05-18,14:16:58,SWISS BEAUTY Premium Skincare,SWISS BEAUTY,Skincare,3,3674.13,CUST251,Charlie,Brigade Road Flagship
+ORD1429,INV-20429,2026-05-04,15:16:58,THE FACE SHOP Premium Skincare,THE FACE SHOP,Skincare,2,3844.55,CUST116,Alice,Brigade Road Flagship
+ORD1430,INV-20430,2026-05-30,06:16:58,THE FACE SHOP Premium Fragrance,THE FACE SHOP,Fragrance,3,2950.19,CUST117,Charlie,Brigade Road Flagship
+ORD1431,INV-20431,2026-05-13,06:16:58,COSRX Premium Fragrance,COSRX,Fragrance,1,3073.97,CUST142,Charlie,Brigade Road Flagship
+ORD1432,INV-20432,2026-05-11,10:16:58,HUDA BEAUTY Premium Cosmetics,HUDA BEAUTY,Cosmetics,1,1022.53,CUST128,Bob,Brigade Road Flagship
+ORD1433,INV-20433,2026-05-16,08:16:58,PLUM Premium Cosmetics,PLUM,Cosmetics,3,4822.15,CUST248,Charlie,Brigade Road Flagship
+ORD1434,INV-20434,2026-05-06,06:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,3,4984.86,CUST111,Bob,Brigade Road Flagship
+ORD1435,INV-20435,2026-05-27,07:16:58,PLUM Premium Fragrance,PLUM,Fragrance,2,3945.12,CUST133,Alice,Brigade Road Flagship
+ORD1436,INV-20436,2026-05-29,15:16:58,MAC Premium Cosmetics,MAC,Cosmetics,2,1087.69,CUST199,Alice,Brigade Road Flagship
+ORD1437,INV-20437,2026-05-14,09:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,1,3713.1,CUST172,Alice,Brigade Road Flagship
+ORD1438,INV-20438,2026-05-22,15:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,4,3953.62,CUST220,Alice,Brigade Road Flagship
+ORD1439,INV-20439,2026-05-10,14:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,3,3838.26,CUST263,Alice,Brigade Road Flagship
+ORD1440,INV-20440,2026-05-28,15:16:58,MAC Premium Haircare,MAC,Haircare,2,4391.5,CUST205,Alice,Brigade Road Flagship
+ORD1441,INV-20441,2026-05-16,08:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,2,2455.31,CUST112,Bob,Brigade Road Flagship
+ORD1442,INV-20442,2026-05-30,07:16:58,THE FACE SHOP Premium Fragrance,THE FACE SHOP,Fragrance,4,2808.57,CUST234,Charlie,Brigade Road Flagship
+ORD1443,INV-20443,2026-05-26,06:16:58,MAYBELLINE Premium Skincare,MAYBELLINE,Skincare,3,1679.45,CUST251,Bob,Brigade Road Flagship
+ORD1444,INV-20444,2026-05-19,11:16:58,FARMSTAY Premium Skincare,FARMSTAY,Skincare,1,4419.34,CUST178,Bob,Brigade Road Flagship
+ORD1445,INV-20445,2026-05-09,15:16:58,SWISS BEAUTY Premium Fragrance,SWISS BEAUTY,Fragrance,4,2664.19,CUST185,Bob,Brigade Road Flagship
+ORD1446,INV-20446,2026-05-26,10:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,2,3744.55,CUST103,Charlie,Brigade Road Flagship
+ORD1447,INV-20447,2026-05-25,08:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,4,4874.84,CUST286,Alice,Brigade Road Flagship
+ORD1448,INV-20448,2026-05-17,11:16:58,FARMSTAY Premium Cosmetics,FARMSTAY,Cosmetics,3,805.28,CUST259,Charlie,Brigade Road Flagship
+ORD1449,INV-20449,2026-05-12,10:16:58,THE FACE SHOP Premium Cosmetics,THE FACE SHOP,Cosmetics,2,3231.53,CUST103,Charlie,Brigade Road Flagship
+ORD1450,INV-20450,2026-05-22,08:16:58,HUDA BEAUTY Premium Fragrance,HUDA BEAUTY,Fragrance,1,4771.96,CUST122,Bob,Brigade Road Flagship
+ORD1451,INV-20451,2026-05-20,11:16:58,HUDA BEAUTY Premium Skincare,HUDA BEAUTY,Skincare,3,3924.32,CUST211,Charlie,Brigade Road Flagship
+ORD1452,INV-20452,2026-06-01,16:16:58,COSRX Premium Skincare,COSRX,Skincare,2,4958.14,CUST242,Alice,Brigade Road Flagship
+ORD1453,INV-20453,2026-05-08,10:16:58,PLUM Premium Fragrance,PLUM,Fragrance,4,2247.14,CUST295,Bob,Brigade Road Flagship
+ORD1454,INV-20454,2026-05-14,09:16:58,LAKME Premium Cosmetics,LAKME,Cosmetics,3,3497.95,CUST160,Alice,Brigade Road Flagship
+ORD1455,INV-20455,2026-05-30,11:16:58,SWISS BEAUTY Premium Fragrance,SWISS BEAUTY,Fragrance,1,4150.26,CUST281,Bob,Brigade Road Flagship
+ORD1456,INV-20456,2026-05-27,12:16:58,FACES CANADA Premium Skincare,FACES CANADA,Skincare,1,4154.64,CUST223,Bob,Brigade Road Flagship
+ORD1457,INV-20457,2026-05-21,08:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,3,1494.98,CUST248,Bob,Brigade Road Flagship
+ORD1458,INV-20458,2026-05-03,13:16:58,COSRX Premium Fragrance,COSRX,Fragrance,1,4634.81,CUST141,Bob,Brigade Road Flagship
+ORD1459,INV-20459,2026-06-02,11:16:58,HUDA BEAUTY Premium Cosmetics,HUDA BEAUTY,Cosmetics,1,4482.63,CUST144,Charlie,Brigade Road Flagship
+ORD1460,INV-20460,2026-05-04,12:16:58,DERMA CO Premium Cosmetics,DERMA CO,Cosmetics,1,4742.78,CUST284,Charlie,Brigade Road Flagship
+ORD1461,INV-20461,2026-05-29,06:16:58,THE FACE SHOP Premium Skincare,THE FACE SHOP,Skincare,1,3535.72,CUST148,Alice,Brigade Road Flagship
+ORD1462,INV-20462,2026-05-26,12:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,3,1299.96,CUST136,Charlie,Brigade Road Flagship
+ORD1463,INV-20463,2026-05-31,16:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,3,4631.15,CUST233,Alice,Brigade Road Flagship
+ORD1464,INV-20464,2026-05-23,10:16:58,DERMA CO Premium Fragrance,DERMA CO,Fragrance,3,4183.45,CUST129,Alice,Brigade Road Flagship
+ORD1465,INV-20465,2026-06-01,16:16:58,HUDA BEAUTY Premium Cosmetics,HUDA BEAUTY,Cosmetics,2,1716.78,CUST118,Bob,Brigade Road Flagship
+ORD1466,INV-20466,2026-05-15,14:16:58,HUDA BEAUTY Premium Fragrance,HUDA BEAUTY,Fragrance,4,1986.93,CUST266,Bob,Brigade Road Flagship
+ORD1467,INV-20467,2026-05-30,08:16:58,DERMA CO Premium Haircare,DERMA CO,Haircare,3,4040.65,CUST109,Bob,Brigade Road Flagship
+ORD1468,INV-20468,2026-05-30,10:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,1,1392.35,CUST121,Alice,Brigade Road Flagship
+ORD1469,INV-20469,2026-05-29,08:16:58,COSRX Premium Haircare,COSRX,Haircare,4,1709.8,CUST198,Charlie,Brigade Road Flagship
+ORD1470,INV-20470,2026-05-27,07:16:58,MINIMALIST Premium Fragrance,MINIMALIST,Fragrance,2,4070.54,CUST131,Charlie,Brigade Road Flagship
+ORD1471,INV-20471,2026-05-16,14:16:58,HUDA BEAUTY Premium Cosmetics,HUDA BEAUTY,Cosmetics,1,4032.11,CUST215,Alice,Brigade Road Flagship
+ORD1472,INV-20472,2026-05-16,11:16:58,PLUM Premium Fragrance,PLUM,Fragrance,3,2381.35,CUST249,Alice,Brigade Road Flagship
+ORD1473,INV-20473,2026-05-28,13:16:58,MAYBELLINE Premium Cosmetics,MAYBELLINE,Cosmetics,1,4057.48,CUST290,Bob,Brigade Road Flagship
+ORD1474,INV-20474,2026-05-29,15:16:58,COSRX Premium Skincare,COSRX,Skincare,2,4167.6,CUST251,Charlie,Brigade Road Flagship
+ORD1475,INV-20475,2026-05-21,14:16:58,MAC Premium Skincare,MAC,Skincare,1,2342.71,CUST217,Charlie,Brigade Road Flagship
+ORD1476,INV-20476,2026-05-08,06:16:58,FARMSTAY Premium Skincare,FARMSTAY,Skincare,1,4039.03,CUST140,Alice,Brigade Road Flagship
+ORD1477,INV-20477,2026-05-04,07:16:58,FARMSTAY Premium Cosmetics,FARMSTAY,Cosmetics,4,4078.31,CUST288,Alice,Brigade Road Flagship
+ORD1478,INV-20478,2026-05-27,10:16:58,FARMSTAY Premium Haircare,FARMSTAY,Haircare,3,685.59,CUST300,Alice,Brigade Road Flagship
+ORD1479,INV-20479,2026-05-03,06:16:58,THE FACE SHOP Premium Cosmetics,THE FACE SHOP,Cosmetics,1,2345.74,CUST230,Charlie,Brigade Road Flagship
+ORD1480,INV-20480,2026-05-14,08:16:58,SWISS BEAUTY Premium Haircare,SWISS BEAUTY,Haircare,2,4649.41,CUST100,Bob,Brigade Road Flagship
+ORD1481,INV-20481,2026-05-27,16:16:58,THE FACE SHOP Premium Skincare,THE FACE SHOP,Skincare,2,2491.63,CUST175,Alice,Brigade Road Flagship
+ORD1482,INV-20482,2026-05-14,10:16:58,DERMA CO Premium Cosmetics,DERMA CO,Cosmetics,3,3485.22,CUST294,Bob,Brigade Road Flagship
+ORD1483,INV-20483,2026-05-26,13:16:58,SWISS BEAUTY Premium Cosmetics,SWISS BEAUTY,Cosmetics,3,775.7,CUST277,Charlie,Brigade Road Flagship
+ORD1484,INV-20484,2026-05-25,14:16:58,PLUM Premium Fragrance,PLUM,Fragrance,4,4032.41,CUST216,Bob,Brigade Road Flagship
+ORD1485,INV-20485,2026-05-10,07:16:58,MAC Premium Haircare,MAC,Haircare,2,1997.74,CUST156,Bob,Brigade Road Flagship
+ORD1486,INV-20486,2026-05-21,12:16:58,MINIMALIST Premium Cosmetics,MINIMALIST,Cosmetics,3,595.63,CUST156,Bob,Brigade Road Flagship
+ORD1487,INV-20487,2026-05-12,15:16:58,MAC Premium Skincare,MAC,Skincare,4,3777.39,CUST263,Alice,Brigade Road Flagship
+ORD1488,INV-20488,2026-05-13,13:16:58,MAYBELLINE Premium Cosmetics,MAYBELLINE,Cosmetics,4,4836.92,CUST271,Bob,Brigade Road Flagship
+ORD1489,INV-20489,2026-05-18,09:16:58,MAYBELLINE Premium Fragrance,MAYBELLINE,Fragrance,3,4269.25,CUST268,Charlie,Brigade Road Flagship
+ORD1490,INV-20490,2026-05-23,16:16:58,MAC Premium Haircare,MAC,Haircare,3,613.93,CUST162,Bob,Brigade Road Flagship
+ORD1491,INV-20491,2026-05-16,14:16:58,SWISS BEAUTY Premium Skincare,SWISS BEAUTY,Skincare,1,836.58,CUST124,Charlie,Brigade Road Flagship
+ORD1492,INV-20492,2026-05-24,14:16:58,MAYBELLINE Premium Haircare,MAYBELLINE,Haircare,3,4676.09,CUST116,Bob,Brigade Road Flagship
+ORD1493,INV-20493,2026-05-25,09:16:58,SWISS BEAUTY Premium Fragrance,SWISS BEAUTY,Fragrance,1,4266.58,CUST169,Bob,Brigade Road Flagship
+ORD1494,INV-20494,2026-05-09,09:16:58,THE FACE SHOP Premium Haircare,THE FACE SHOP,Haircare,1,3210.81,CUST147,Charlie,Brigade Road Flagship
+ORD1495,INV-20495,2026-05-06,08:16:58,FARMSTAY Premium Fragrance,FARMSTAY,Fragrance,1,4253.58,CUST205,Alice,Brigade Road Flagship
+ORD1496,INV-20496,2026-06-01,14:16:58,MINIMALIST Premium Skincare,MINIMALIST,Skincare,3,2299.49,CUST272,Bob,Brigade Road Flagship
+ORD1497,INV-20497,2026-05-08,12:16:58,DERMA CO Premium Cosmetics,DERMA CO,Cosmetics,1,2032.08,CUST166,Bob,Brigade Road Flagship
+ORD1498,INV-20498,2026-05-21,13:16:58,PLUM Premium Haircare,PLUM,Haircare,3,733.12,CUST115,Alice,Brigade Road Flagship
+ORD1499,INV-20499,2026-05-14,07:16:58,THE FACE SHOP Premium Skincare,THE FACE SHOP,Skincare,2,4706.66,CUST136,Bob,Brigade Road Flagship
+ORD1500,INV-20500,2026-05-27,06:16:58,MAC Premium Haircare,MAC,Haircare,4,3053.0,CUST178,Bob,Brigade Road Flagship
