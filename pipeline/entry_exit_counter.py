@@ -1,6 +1,8 @@
-def get_zone_event_type(camera_id, detected_zone):
-    if camera_id == "CAM 5" and detected_zone == "CUSTOMER_POS_QUEUE":
+def get_zone_event_type(camera_purpose, detected_zone):
+    """Dynamically classify event types based on camera purpose and zone name."""
+    zone_upper = detected_zone.upper()
+    if camera_purpose == "billing" and "QUEUE" in zone_upper:
         return "BILLING_QUEUE_JOIN"
-    elif camera_id == "CAM 3" and detected_zone == "GLASS_ENTRY_DOORWAY":
+    elif camera_purpose == "entry" and "ENTRY" in zone_upper:
         return "ENTRY"
     return "ZONE_ENTER"

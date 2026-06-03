@@ -1,6 +1,3 @@
-# PROMPT: "Generate a pytest file to test the ingestion endpoints and pipeline health."
-# CHANGES MADE: Overrode the SQLite get_db dependency to point to an isolated test.db for clean state tests.
-
 import pytest
 from fastapi.testclient import TestClient
 import sqlite3
@@ -17,6 +14,7 @@ TEST_DB = "test_store_analytics.db"
 def override_get_db():
     conn = sqlite3.connect(TEST_DB, timeout=5.0)
     conn.row_factory = sqlite3.Row
+    conn.execute('DROP TABLE IF EXISTS ingest_events')
     conn.execute('''
         CREATE TABLE IF NOT EXISTS ingest_events (
             event_id TEXT PRIMARY KEY,

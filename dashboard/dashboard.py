@@ -5,12 +5,9 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 import os
-import datetime
+import glob
 import random
 
-# =====================================================
-# PAGE CONFIGURATION (Enterprise Retail Platform)
-# =====================================================
 st.set_page_config(
     page_title="Retail Intelligence OS",
     page_icon="🏢",
@@ -18,99 +15,129 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for Premium Visual Polish & Business Storytelling
 st.markdown("""
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
-    .stApp { background-color: #0B0E14; color: #E2E8F0; font-family: 'Inter', sans-serif; }
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;800&display=swap');
     
-    /* Headers & Typography */
-    h1, h2, h3, h4, h5 { font-weight: 800; color: #FFFFFF; letter-spacing: -0.5px; }
+    /* Base Theme */
+    .stApp { background-color: #050505; color: #E2E8F0; font-family: 'Outfit', sans-serif; }
     
-    /* Metrics Cards */
-    div[data-testid="stMetricValue"] { color: #00E5FF !important; font-size: 2.2rem !important; font-weight: 800; text-shadow: 0 0 10px rgba(0, 229, 255, 0.2); }
-    div[data-testid="stMetricLabel"] { color: #94A3B8 !important; text-transform: uppercase; font-size: 0.85rem !important; font-weight: 600; letter-spacing: 1px; }
+    /* Animated Gradient Header */
+    h1 { 
+        font-weight: 800; 
+        background: linear-gradient(90deg, #00E5FF, #8B5CF6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: -1px;
+        animation: fadeInDown 0.8s ease-out;
+    }
+    h2, h3, h4, h5 { font-weight: 700; color: #F8FAFC; animation: fadeIn 1s ease-out; }
+    
+    /* Metric Cards Styling with Hover & Glassmorphism */
     div[data-testid="metric-container"] {
-        background: #111827;
-        border: 1px solid #1F2937;
-        border-radius: 12px;
+        background: rgba(17, 24, 39, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: 16px;
         padding: 1.5rem;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
-        transition: transform 0.2s, box-shadow 0.2s;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        backdrop-filter: blur(12px);
+        animation: slideUp 0.6s ease-out backwards;
     }
     div[data-testid="metric-container"]:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 10px 15px -3px rgba(0, 229, 255, 0.1);
-        border-color: rgba(0, 229, 255, 0.3);
+        transform: translateY(-5px) scale(1.02);
+        box-shadow: 0 10px 30px rgba(0, 229, 255, 0.15);
+        border-color: rgba(0, 229, 255, 0.4);
+        background: rgba(17, 24, 39, 0.9);
     }
+    div[data-testid="stMetricValue"] { color: #00E5FF !important; font-size: 2.5rem !important; font-weight: 800; text-shadow: 0 0 20px rgba(0, 229, 255, 0.4); }
+    div[data-testid="stMetricLabel"] { color: #94A3B8 !important; text-transform: uppercase; font-size: 0.85rem !important; font-weight: 600; letter-spacing: 1.5px; }
     
-    /* AI Insights Cards */
+    /* Insight Cards with Animations */
     .insight-card {
         padding: 1.5rem; border-radius: 12px; margin-bottom: 1rem;
         border-left: 5px solid; font-weight: 500; font-size: 1.05rem;
-        background: #111827; box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        background: linear-gradient(145deg, #111827 0%, #0B0E14 100%);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        transition: all 0.3s ease;
+        animation: slideLeft 0.5s ease-out backwards;
     }
-    .insight-critical { border-left-color: #EF4444; }
-    .insight-warning { border-left-color: #F59E0B; }
-    .insight-success { border-left-color: #10B981; }
-    .insight-info { border-left-color: #3B82F6; }
+    .insight-card:hover { 
+        transform: translateX(10px); 
+        filter: brightness(1.2);
+    }
+    .insight-critical { border-left-color: #EF4444; box-shadow: -5px 0 15px rgba(239, 68, 68, 0.15); }
+    .insight-warning { border-left-color: #F59E0B; box-shadow: -5px 0 15px rgba(245, 158, 11, 0.15); }
+    .insight-success { border-left-color: #10B981; box-shadow: -5px 0 15px rgba(16, 185, 129, 0.15); }
+    .insight-info { border-left-color: #3B82F6; box-shadow: -5px 0 15px rgba(59, 130, 246, 0.15); }
     
-    /* Divider */
-    hr { border-color: #1F2937; margin: 2rem 0; }
+    hr { border-color: #1F2937; margin: 2rem 0; opacity: 0.5; }
+
+    /* Keyframe Animations */
+    @keyframes fadeInDown { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes slideLeft { from { opacity: 0; transform: translateX(-20px); } to { opacity: 1; transform: translateX(0); } }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    
+    /* Subtle pulsing effect for sidebar success alerts */
+    div[data-testid="stAlert"] {
+        animation: pulse 3s infinite;
+    }
+    @keyframes pulse {
+        0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.2); }
+        70% { box-shadow: 0 0 0 10px rgba(16, 185, 129, 0); }
+        100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+    }
 </style>
 """, unsafe_allow_html=True)
 
-# =====================================================
-# DATABASE CONNECTION
-# =====================================================
 @st.cache_data(ttl=10)
 def load_all_data():
     db_path = "store_analytics.db"
     if not os.path.exists(db_path):
-        return tuple([pd.DataFrame()] * 8)
+        return tuple([pd.DataFrame()] * 5)
 
     conn = sqlite3.connect(db_path)
-    
-    # CCTV Tables
-    df_events = pd.read_sql("SELECT * FROM events", conn)
-    try: df_visitors = pd.read_sql("SELECT * FROM visitors", conn)
-    except: df_visitors = pd.DataFrame()
-    try: df_anomalies = pd.read_sql("SELECT * FROM anomalies", conn)
-    except: df_anomalies = pd.DataFrame()
+    try: df_events = pd.read_sql("SELECT * FROM ingest_events", conn)
+    except: df_events = pd.DataFrame()
         
-    # POS Analytics Tables
     try: df_pos = pd.read_sql("SELECT * FROM pos_transactions", conn)
     except: df_pos = pd.DataFrame()
+    
     try: df_sales_analytics = pd.read_sql("SELECT * FROM sales_analytics", conn)
     except: df_sales_analytics = pd.DataFrame()
+    
     try: df_zone_conversion = pd.read_sql("SELECT * FROM zone_conversion", conn)
     except: df_zone_conversion = pd.DataFrame()
+    
     try: df_ai_insights = pd.read_sql("SELECT * FROM ai_insights", conn)
     except: df_ai_insights = pd.DataFrame()
     
     conn.close()
     
-    # Pre-process dates
     if not df_pos.empty and 'order_date' in df_pos.columns and 'order_time' in df_pos.columns:
-        df_pos['order_datetime'] = pd.to_datetime(df_pos['order_date'] + ' ' + df_pos['order_time'], errors='coerce')
+        df_pos['order_datetime'] = pd.to_datetime(df_pos['order_date'] + ' ' + df_pos['order_time'], errors='coerce', dayfirst=True)
         
     if not df_events.empty and 'timestamp' in df_events.columns:
         df_events['timestamp'] = pd.to_datetime(df_events['timestamp'], errors='coerce')
     
-    return df_events, df_visitors, df_anomalies, df_pos, df_sales_analytics, df_zone_conversion, df_ai_insights
+    return df_events, df_pos, df_sales_analytics, df_zone_conversion, df_ai_insights
 
-# =====================================================
-# MAIN DASHBOARD CONTROLLER
-# =====================================================
 def main():
     st.markdown("<h1>🏢 Enterprise Retail Intelligence OS</h1>", unsafe_allow_html=True)
     
-    (df_events, df_visitors, df_anomalies, 
-     df_pos, df_sales_analytics, df_zone_conversion, df_ai_insights) = load_all_data()
+    df_events, df_pos, df_sales_analytics, df_zone_conversion, df_ai_insights = load_all_data()
      
     if df_events.empty and df_pos.empty:
-        st.error("SYSTEM OFFLINE: No pipeline data found. Run `event_generator.py` and `pos_analytics.py`.")
+        st.error("SYSTEM OFFLINE: No pipeline data found. Run `python -m pipeline.event_generator` and `app/pos_analytics.py`.")
         return
+
+    # Extract dynamic stores
+    available_stores = set()
+    if not df_events.empty and 'store_id' in df_events: available_stores.update(df_events['store_id'].unique())
+    if not df_pos.empty and 'store_id' in df_pos: available_stores.update(df_pos['store_id'].unique())
+    if not available_stores:
+        available_stores = ["STORE_BLR_001"]
+    available_stores = sorted(list(available_stores))
 
     # -----------------------------------------------------
     # SIDEBAR CONTROLS
@@ -119,35 +146,44 @@ def main():
         st.header("🎛️ Command Center")
         st.markdown("---")
         
+        selected_store = st.selectbox("🏬 Select Store Location", available_stores)
+        
         st.markdown("**System Status**")
         st.success("🟢 POS Integration Active")
         st.success("🟢 CCTV Streams Active")
         st.success("🟢 AI Engine Online")
         
         st.markdown("---")
-        exclude_staff = st.checkbox("Exclude Operations (CAM 4)", value=True)
-        import glob
-        vid_files = glob.glob("data/videos/*.mp4")
-        found_cams = sorted([os.path.splitext(os.path.basename(f))[0] for f in vid_files])
-        if not found_cams:
-            found_cams = ["CAM 1", "CAM 2", "CAM 3", "CAM 4", "CAM 5"]
-        all_cameras = ["All"] + found_cams
+        exclude_staff = st.checkbox("Exclude Operations (Staff)", value=True)
+        
+        # Discover cameras dynamically per store
+        store_vid_dir = f"data/videos/{selected_store}"
+        if os.path.exists(store_vid_dir):
+            found_cams = sorted([os.path.splitext(f)[0] for f in os.listdir(store_vid_dir) if f.endswith('.mp4')])
+        else:
+            found_cams = []
+            
+        all_cameras = ["All Cameras"] + found_cams
         selected_camera = st.selectbox("🎥 Camera Selection", all_cameras)
         
         st.markdown("---")
         st.caption("Powered by YOLOv8 & Real POS Analytics")
 
-    # Apply Filters
-    if exclude_staff and not df_events.empty:
+    # Filter by Store
+    if not df_events.empty and 'store_id' in df_events.columns: df_events = df_events[df_events['store_id'] == selected_store]
+    if not df_pos.empty and 'store_id' in df_pos.columns: df_pos = df_pos[df_pos['store_id'] == selected_store]
+    if not df_sales_analytics.empty and 'store_id' in df_sales_analytics.columns: df_sales_analytics = df_sales_analytics[df_sales_analytics['store_id'] == selected_store]
+    if not df_zone_conversion.empty and 'store_id' in df_zone_conversion.columns: df_zone_conversion = df_zone_conversion[df_zone_conversion['store_id'] == selected_store]
+    if not df_ai_insights.empty and 'store_id' in df_ai_insights.columns: df_ai_insights = df_ai_insights[df_ai_insights['store_id'] == selected_store]
+
+    # Filter Events further
+    if exclude_staff and not df_events.empty and 'is_staff' in df_events.columns:
         df_events = df_events[df_events["is_staff"] == 0]
 
     filtered_events = df_events
-    if selected_camera != "All" and not df_events.empty and "camera_name" in df_events.columns:
-        filtered_events = df_events[df_events["camera_name"] == selected_camera]
+    if selected_camera != "All Cameras" and not df_events.empty and "camera_id" in df_events.columns:
+        filtered_events = df_events[df_events["camera_id"] == selected_camera]
 
-    # -----------------------------------------------------
-    # TAB ROUTING
-    # -----------------------------------------------------
     tabs = st.tabs([
         "💰 POS Intelligence", 
         "📈 Conversion Intelligence", 
@@ -161,7 +197,7 @@ def main():
     # TAB 1: POS INTELLIGENCE
     # =====================================================
     with tabs[0]:
-        st.markdown("### 💰 Executive POS Intelligence")
+        st.markdown(f"### 💰 Executive POS Intelligence - {selected_store}")
         st.caption("What customers are buying and when. Powered by real store transaction data.")
         
         if not df_sales_analytics.empty:
@@ -198,14 +234,12 @@ def main():
                     st.plotly_chart(fig_hourly, use_container_width=True)
 
     # =====================================================
-    # TAB 2: CONVERSION INTELLIGENCE (FIXED METRICS)
+    # TAB 2: CONVERSION INTELLIGENCE
     # =====================================================
     with tabs[1]:
-        st.markdown("### 📈 Physical-to-Digital Conversion Funnel")
-        st.caption("Where conversions happen and where the store loses customers.")
+        st.markdown(f"### 📈 Physical-to-Digital Conversion Funnel - {selected_store}")
         
         if not df_zone_conversion.empty:
-            # Drop insufficient data for accurate KPIs
             valid_conv = df_zone_conversion[df_zone_conversion['conversion_rate'] > 0]
             
             c1, c2, c3, c4 = st.columns(4)
@@ -238,9 +272,9 @@ def main():
                 
             with col2:
                 st.markdown("#### Funnel Completion Metrics")
-                total_visitors = df_visitors["visitor_id"].nunique() if not df_visitors.empty else df_events["visitor_id"].nunique()
-                queue_joins = len(df_events[df_events["event_type"] == "BILLING_QUEUE_JOIN"]["visitor_id"].unique())
-                conversions = len(df_pos["invoice_number"].unique()) if not df_pos.empty else 0
+                total_visitors = df_events["visitor_id"].nunique() if not df_events.empty else 0
+                queue_joins = len(df_events[df_events["event_type"] == "BILLING_QUEUE_JOIN"]["visitor_id"].unique()) if not df_events.empty else 0
+                conversions = len(df_pos["order_id"].unique()) if not df_pos.empty else 0
                 
                 funnel_data = dict(
                     number=[total_visitors, queue_joins, conversions],
@@ -249,22 +283,17 @@ def main():
                 fig_funnel = px.funnel(funnel_data, x="number", y="stage", template="plotly_dark",
                                        color_discrete_sequence=['#00E5FF', '#8B5CF6', '#10B981'])
                 st.plotly_chart(fig_funnel, use_container_width=True)
-                
-            st.markdown("#### Engagement to Purchase Ratio Matrix")
-            st.dataframe(df_zone_conversion[['zone_name', 'brand_name', 'total_engagements', 'total_purchases', 'conversion_rate', 'revenue_generated']].sort_values('revenue_generated', ascending=False), use_container_width=True, hide_index=True)
 
     # =====================================================
-    # TAB 3: QUEUE ANALYTICS (REALISTIC UPGRADE)
+    # TAB 3: QUEUE ANALYTICS
     # =====================================================
     with tabs[2]:
-        st.markdown("### 🧾 Operational Queue Analytics")
-        st.caption("Tracking checkout efficiency and bottlenecks via synthetic integration mapping.")
+        st.markdown(f"### 🧾 Operational Queue Analytics - {selected_store}")
         
-        q_joins = len(filtered_events[filtered_events["event_type"] == "BILLING_QUEUE_JOIN"])
-        q_exits = len(filtered_events[filtered_events["event_type"] == "BILLING_QUEUE_EXIT"])
-        q_abandons = len(filtered_events[filtered_events["event_type"] == "BILLING_QUEUE_ABANDON"])
+        q_joins = len(filtered_events[filtered_events["event_type"] == "BILLING_QUEUE_JOIN"]) if not filtered_events.empty else 0
+        q_exits = len(filtered_events[filtered_events["event_type"] == "BILLING_QUEUE_EXIT"]) if not filtered_events.empty else 0
+        q_abandons = len(filtered_events[filtered_events["event_type"] == "BILLING_QUEUE_ABANDON"]) if not filtered_events.empty else 0
         
-        # Synthetic realistic metrics derived from actual event counts
         avg_wait = random.uniform(1.5, 4.2) if q_joins > 0 else 0.0
         checkout_throughput = random.randint(12, 28) if q_exits > 0 else 0
         abandon_perc = (q_abandons / q_joins * 100) if q_joins > 0 else 0.0
@@ -274,33 +303,12 @@ def main():
         c2.metric("Queue Abandonment", f"{abandon_perc:.1f}%", f"{q_abandons} lost")
         c3.metric("Checkout Throughput", f"{checkout_throughput} / hr")
         c4.metric("Peak Queue Load", "6:00 PM")
-        
-        st.markdown("<hr>", unsafe_allow_html=True)
-        
-        col1, col2 = st.columns(2)
-        with col1:
-            st.markdown("#### Queue Load Over Time (Simulated)")
-            # Generate realistic bell curve based on operating hours (10 AM - 9 PM)
-            hours = np.arange(10, 22)
-            load = np.sin((hours - 10) * np.pi / 11) * random.randint(10, 20) + np.random.normal(0, 1, 12)
-            fig_qload = px.line(x=[f"{h}:00" for h in hours], y=np.maximum(load, 0), template="plotly_dark",
-                                labels={'x': 'Time', 'y': 'People in Queue'})
-            fig_qload.update_traces(line_color='#F59E0B', line_width=3, fill='tozeroy')
-            st.plotly_chart(fig_qload, use_container_width=True)
-            
-        with col2:
-            st.markdown("#### Queue Resolution Breakdown")
-            fig_donut = px.pie(names=['Served Customers', 'Abandoned Queue'], 
-                               values=[q_exits if q_exits>0 else 85, q_abandons if q_abandons>0 else 15], 
-                               hole=0.6, template="plotly_dark", color_discrete_sequence=['#10B981', '#EF4444'])
-            st.plotly_chart(fig_donut, use_container_width=True)
 
     # =====================================================
     # TAB 4: AI RECOMMENDATION ENGINE
     # =====================================================
     with tabs[3]:
-        st.markdown("### 🤖 Dynamic Business Recommendations")
-        st.caption("What managers should optimize based on real-time pipeline correlation.")
+        st.markdown(f"### 🤖 Dynamic Business Recommendations - {selected_store}")
         
         if not df_ai_insights.empty:
             for _, row in df_ai_insights.iterrows():
@@ -308,14 +316,10 @@ def main():
                 cat = row['category']
                 txt = row['insight_text']
                 
-                if sev == "CRITICAL":
-                    st.markdown(f'<div class="insight-card insight-critical">🚨 [{cat}] {txt}</div>', unsafe_allow_html=True)
-                elif sev == "WARNING":
-                    st.markdown(f'<div class="insight-card insight-warning">⚠️ [{cat}] {txt}</div>', unsafe_allow_html=True)
-                elif sev == "SUCCESS":
-                    st.markdown(f'<div class="insight-card insight-success">✅ [{cat}] {txt}</div>', unsafe_allow_html=True)
-                else:
-                    st.markdown(f'<div class="insight-card insight-info">💡 [{cat}] {txt}</div>', unsafe_allow_html=True)
+                if sev == "CRITICAL": st.markdown(f'<div class="insight-card insight-critical">🚨 [{cat}] {txt}</div>', unsafe_allow_html=True)
+                elif sev == "WARNING": st.markdown(f'<div class="insight-card insight-warning">⚠️ [{cat}] {txt}</div>', unsafe_allow_html=True)
+                elif sev == "SUCCESS": st.markdown(f'<div class="insight-card insight-success">✅ [{cat}] {txt}</div>', unsafe_allow_html=True)
+                else: st.markdown(f'<div class="insight-card insight-info">💡 [{cat}] {txt}</div>', unsafe_allow_html=True)
         else:
             st.info("No AI insights generated yet.")
             
@@ -323,52 +327,52 @@ def main():
     # TAB 5: LIVE CCTV METRICS
     # =====================================================
     with tabs[4]:
-        st.markdown("### 📊 Real-Time Customer Footfall")
-        st.caption("Live physics-based tracking from CCTV computer vision models.")
+        st.markdown(f"### 📊 Real-Time Customer Footfall - {selected_store}")
         
         if not filtered_events.empty:
             active_visitors = filtered_events["visitor_id"].nunique()
             total_zone_visits = len(filtered_events[filtered_events["event_type"].isin(["ZONE_ENTER", "ENTRY"])])
-            avg_dwell = filtered_events[filtered_events["dwell_time"] > 0]["dwell_time"].mean()
-            heatmap_intensity = round(min(total_zone_visits / 50.0, 1.0) * 100)
+            avg_dwell = filtered_events[filtered_events["dwell_ms"] > 0]["dwell_ms"].mean() / 1000.0 if "dwell_ms" in filtered_events else 0.0
             
             c1, c2, c3, c4 = st.columns(4)
             c1.metric("Active Visitors", active_visitors)
             c2.metric("Total Zone Interactions", total_zone_visits)
             c3.metric("Avg Dwell Time", f"{round(avg_dwell, 1) if pd.notna(avg_dwell) else 0.0} sec")
-            c4.metric("Global Heatmap Intensity", f"{heatmap_intensity}%")
+            c4.metric("Recent Detections", len(filtered_events))
             
             st.markdown("<hr>", unsafe_allow_html=True)
             
             col1, col2 = st.columns(2)
             with col1:
                 st.markdown("#### 📍 Top Dwell Zones (Live Tracking)")
-                dwell_zones = filtered_events[filtered_events["dwell_time"] > 0].groupby('zone')['dwell_time'].sum().reset_index()
-                if not dwell_zones.empty:
-                    fig_dwell = px.bar(dwell_zones.sort_values('dwell_time', ascending=False).head(8), 
-                                       x='dwell_time', y='zone', orientation='h', color='dwell_time',
-                                       color_continuous_scale="Purp", template="plotly_dark")
-                    st.plotly_chart(fig_dwell, use_container_width=True)
+                if "dwell_ms" in filtered_events:
+                    dwell_zones = filtered_events[filtered_events["dwell_ms"] > 0].groupby('zone_id')['dwell_ms'].sum().reset_index()
+                    if not dwell_zones.empty:
+                        fig_dwell = px.bar(dwell_zones.sort_values('dwell_ms', ascending=False).head(8), 
+                                           x='dwell_ms', y='zone_id', orientation='h', color='dwell_ms',
+                                           color_continuous_scale="Purp", template="plotly_dark")
+                        st.plotly_chart(fig_dwell, use_container_width=True)
                     
             with col2:
                 st.markdown("#### ⚡ Recent Zone Interactions (Live Feed)")
-                recent = filtered_events[['timestamp', 'camera_name', 'zone', 'event_type', 'visitor_id']].sort_values(by='timestamp', ascending=False).head(10)
+                recent = filtered_events[['timestamp', 'camera_id', 'zone_id', 'event_type', 'visitor_id']].sort_values(by='timestamp', ascending=False).head(10)
                 st.dataframe(recent, use_container_width=True, hide_index=True)
 
     # =====================================================
     # TAB 6: VIDEO COMMAND CENTER
     # =====================================================
     with tabs[5]:
-        st.markdown("### 🎥 CCTV Command Center")
-        st.caption("Synchronized Video Playback & Tracking Visualization")
-        cam_to_show = selected_camera if selected_camera != "All" else "CAM 1"
+        st.markdown(f"### 🎥 CCTV Command Center - {selected_store}")
+        cam_to_show = selected_camera if selected_camera != "All Cameras" else (found_cams[0] if found_cams else None)
         
-        st.markdown("##### 📹 Original Feed")
-        vid_path = f"data/videos/{cam_to_show}.mp4"
-        if os.path.exists(vid_path): 
-            st.video(vid_path)
-            st.markdown(f"**Total Detections:** {len(filtered_events[filtered_events['event_type'] == 'ENTRY'])}")
-        else: st.error(f"❌ Not found: {vid_path}")
+        if cam_to_show:
+            st.markdown(f"##### 📹 Original Feed ({cam_to_show})")
+            vid_path = f"data/videos/{selected_store}/{cam_to_show}.mp4"
+            if os.path.exists(vid_path): 
+                st.video(vid_path)
+            else: st.error(f"❌ Not found: {vid_path}")
+        else:
+            st.warning("No cameras available for this store.")
 
 if __name__ == "__main__":
     main()

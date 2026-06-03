@@ -56,14 +56,15 @@ This platform is engineered using a modern, robust AI engineering stack:
 
 ## 4. Key Features
 
-- **Multi-camera customer tracking:** Smooth handoffs and unified presence detection.
+- **Multi-store federation analytics:** Manage `STORE_BLR_001`, `STORE_BLR_002`, and beyond from a single pane of glass.
+- **Multi-camera customer tracking:** Smooth handoffs and unified presence detection across independent camera feeds.
 - **Zone-based engagement analytics:** Pinpoint exactly which aisles drive attention.
 - **Queue intelligence:** Real-time billing depth monitoring and abandonment alerts.
-- **POS-to-CCTV conversion correlation:** Stitching offline sales to visual sessions.
+- **POS-to-CCTV conversion correlation:** Stitching offline sales from `pos_transactions.csv` to visual sessions.
 - **Heatmap analytics:** Floorplan intensity matrices based on dwell calculations.
 - **Re-entry detection:** Preventing session inflation for customers re-entering.
 - **Staff exclusion logic:** Differentiating employees to keep customer metrics pure.
-- **Real-time retail KPIs:** Live conversion rates, dwell averages, and store funnels.
+- **Real-time retail KPIs:** Live conversion rates, dwell averages, and store funnels per location.
 - **AI-generated operational recommendations:** Automated insights mapping to actions.
 - **Dockerized deployment:** Launch the entire backend in one command.
 
@@ -74,11 +75,14 @@ This platform is engineered using a modern, robust AI engineering stack:
 ```text
 store-intelligence/
 ├── app/          # The FastAPI Intelligence Layer (modular routing, db models)
-├── pipeline/     # The YOLOv8 Detection Engine (tracking, dwells, events)
-├── dashboard/    # The Streamlit Command Center (live UI, POS analytics)
+├── pipeline/     # The YOLOv8 Detection Engine (dynamic zone scaling, events)
+├── dashboard/    # The Streamlit Command Center (multi-store selection, KPIs)
 ├── tests/        # The Pytest Suite (covering API, metrics, pipeline)
-├── docs/         # Architectural documentation (DESIGN, CHOICES, API)
-└── data/         # Ignored storage for layouts, raw videos, and test outputs
+├── docs/         # Architectural documentation
+└── data/         # Official datasets
+    ├── layouts/  # Store floorplan mappings
+    ├── pos/      # pos_transactions.csv
+    └── videos/   # Multi-store subdirectories (STORE_BLR_001, STORE_BLR_002)
 ```
 
 ---
@@ -200,10 +204,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-**3. Run the Detection Pipeline**
-*Ensure your footage is placed securely inside `data/videos/`.*
+**3. Run the Detection Pipeline & POS Analytics**
+*This will automatically iterate through all official stores and cameras in `data/videos/` and ingest `data/pos/pos_transactions.csv`.*
 ```bash
 python -m pipeline.event_generator
+python app/pos_analytics.py
 ```
 *(Alternatively, use `bash pipeline/run.sh`)*
 

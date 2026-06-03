@@ -9,7 +9,7 @@ def get_anomalies(store_id: str, conn: sqlite3.Connection = Depends(get_db)):
     cursor = conn.cursor()
     
     try:
-        cursor.execute("SELECT category as severity, insight_text as suggested_action FROM ai_insights")
+        cursor.execute("SELECT category as severity, insight_text as suggested_action FROM ai_insights WHERE store_id=?", (store_id,))
         raw = cursor.fetchall()
         anomalies = []
         for r in raw:

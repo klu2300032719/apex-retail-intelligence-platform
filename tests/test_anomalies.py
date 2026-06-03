@@ -1,6 +1,3 @@
-# PROMPT: "Generate a pytest file to test the anomalies endpoint. Ensure it safely handles empty queries and returns the active anomalies."
-# CHANGES MADE: Extracted this test from the monolithic test suite.
-
 import pytest
 from fastapi.testclient import TestClient
 import sqlite3
@@ -22,22 +19,23 @@ app.dependency_overrides[get_db] = override_get_db
 @pytest.fixture(autouse=True)
 def setup_database():
     conn = override_get_db()
+    conn.execute('DROP TABLE IF EXISTS ingest_events')
     conn.execute('''
         CREATE TABLE IF NOT EXISTS ingest_events (
             event_id TEXT PRIMARY KEY
         )
     ''')
-    # Create the anomalies table if needed for this test
+    conn.execute('DROP TABLE IF EXISTS ai_insights')
     conn.execute('''
         CREATE TABLE IF NOT EXISTS ai_insights (
+            store_id TEXT,
             category TEXT,
             insight_text TEXT
         )
     ''')
     conn.execute('DELETE FROM ai_insights')
     
-    # Insert dummy anomaly
-    conn.execute('INSERT INTO ai_insights (category, insight_text) VALUES (?, ?)', ("CRITICAL", "High Queue Depth"))
+    conn.execute('INSERT INTO ai_insights (store_id, category, insight_text) VALUES (?, ?, ?)', ("STORE_001", "CRITICAL", "High Queue Depth"))
     conn.commit()
     conn.close()
     yield

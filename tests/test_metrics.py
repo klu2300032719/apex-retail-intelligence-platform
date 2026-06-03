@@ -1,6 +1,3 @@
-# PROMPT: "Generate a pytest file to test the metrics and funnel endpoints. Specifically test for empty stores, zero purchases, and make sure staff events are excluded from the metrics."
-# CHANGES MADE: Extracted these metrics tests from the monolithic test file into this separated module as per the requested micro-architecture.
-
 import pytest
 from fastapi.testclient import TestClient
 import sqlite3
@@ -24,6 +21,7 @@ app.dependency_overrides[get_db] = override_get_db
 @pytest.fixture(autouse=True)
 def setup_database():
     conn = override_get_db()
+    conn.execute('DROP TABLE IF EXISTS ingest_events')
     conn.execute('''
         CREATE TABLE IF NOT EXISTS ingest_events (
             event_id TEXT PRIMARY KEY,
