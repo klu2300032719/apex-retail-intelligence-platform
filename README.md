@@ -4,6 +4,10 @@
 
 ## 1. Project Overview
 
+## 🚀 Platform Preview
+
+![Dashboard Overview](docs/images/dashboard-overview.png)
+
 A specialty retail chain—Apex Retail—operates 40 physical stores across 8 cities. While their online channels enjoy mature, real-time analytics (session tracking, bounce rates, conversion drop-offs), their physical stores represent a complete data blind spot.
 
 This platform bridges that gap by transforming raw, unstructured CCTV footage into a highly structured **Real-Time Store Analytics** engine. By combining advanced computer vision models with an enterprise-grade ingestion API, this system provides **Customer Behavior Intelligence** and **AI-Powered Retail Operations**—enabling physical retail to operate with the exact same data fidelity as an e-commerce website.
@@ -23,7 +27,7 @@ Our system employs a strictly decoupled, micro-architecture design to ensure mas
        ↓
 ⚡ FastAPI Intelligence Layer (app/)
        ↓
-🗄️ SQLite Analytics Store (store_analytics.db)
+🗄️ Operational Analytics Store (store_analytics.db)
        ↓
 📊 Enterprise Streamlit Dashboard (dashboard/)
 ```
@@ -96,19 +100,20 @@ store-intelligence/
 
 The repository includes a production-grade Streamlit application that pulls directly from the Intelligence API, acting as a live command center for store managers:
 
+The dashboard updates dynamically in real time as CCTV events stream through the FastAPI ingestion layer.
+
 - **POS Intelligence:** Correlates real transactions to detect average basket sizes against foot traffic.
 - **Conversion Intelligence:** Live funnels matching entry to billing queue to purchase.
 - **Queue Analytics:** Monitors billing depth and flags abandonment thresholds.
 - **CCTV Command Center:** Provides a clean live feed of the store cameras synchronized with the real-time detection event stream.
 - **AI Recommendations:** Highlights automated insights (e.g., "Assign staff to Billing immediately").
 
-![Dashboard Preview](docs/images/dashboard.png)
-![Funnel Analytics](docs/images/funnel.png)
-![CCTV Command Center](docs/images/cctv.png)
-![POS Intelligence](docs/images/pos.png)
-![Anomaly Alerts](docs/images/alerts.png)
-
-*(Placeholders for actual running screenshots)*
+![Dashboard Overview](docs/images/dashboard-overview.png)
+![Conversion Intelligence](docs/images/conversion-intelligence.png)
+![AI Recommendations](docs/images/ai-recommendations.png)
+![CCTV Command Center](docs/images/cctv-command-center.png)
+![Docker Build](docs/images/docker-build.png)
+![Test Suite](docs/images/test-suite.png)
 
 ---
 
@@ -131,6 +136,12 @@ The test suite validates logic correctness, idempotency, and critical operationa
 ```bash
 # Run the test suite natively
 pytest tests/ -v
+```
+
+### Latest Test Results
+
+```bash
+8 passed in 1.17s
 ```
 
 **Validated Capabilities:**
@@ -164,17 +175,35 @@ docker compose up --build -d
 ```
 *API is now alive at `http://localhost:8000`. Swagger UI at `/docs`.*
 
+### Health Check Example
+
+```bash
+curl http://localhost:8000/health
+```
+
+```json
+{
+  "status": "HEALTHY"
+}
+```
+
 **2. Setup Local Python Environment (for Pipeline/Dashboard)**
 ```bash
 python -m venv venv
-source venv/bin/activate  # Or `venv\Scripts\activate` on Windows
+
+# Windows
+venv\Scripts\activate
+
+# Linux/macOS
+source venv/bin/activate
+
 pip install -r requirements.txt
 ```
 
 **3. Run the Detection Pipeline**
 *Ensure your footage is placed securely inside `data/videos/`.*
 ```bash
-python pipeline/event_generator.py
+python -m pipeline.event_generator
 ```
 *(Alternatively, use `bash pipeline/run.sh`)*
 
@@ -191,3 +220,19 @@ curl http://localhost:8000/stores/STORE_BLR_002/metrics
 streamlit run dashboard/dashboard.py
 ```
 *Dashboard will automatically open at `http://localhost:8501`.*
+
+---
+
+## 12. Scalability & Future Work
+
+Future production upgrades could include:
+
+* Kafka-based event streaming
+* PostgreSQL or ClickHouse migration
+* GPU inference acceleration
+* Multi-store federation analytics
+* Redis-backed real-time caching
+* RTSP live camera ingestion
+* Kubernetes deployment orchestration
+
+The current architecture was intentionally designed in a modular and service-oriented manner to support these production-scale extensions.
