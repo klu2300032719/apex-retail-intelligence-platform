@@ -2,6 +2,10 @@
 
 > **A production-ready AI Retail Intelligence Platform built for real-world deployment.**
 
+> **🔗 Important Links:**
+> * [Download Raw Video Datasets Here (Google Drive)](https://drive.google.com/file/d/1fSOp4D1yj_HiN2nlt83y-zLKo17HiwQk/view?usp=sharing)
+
+
 ## 1. Project Overview
 
 ## 🚀 Platform Preview
