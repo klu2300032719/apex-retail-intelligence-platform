@@ -232,6 +232,25 @@ streamlit run dashboard/dashboard.py
 
 ---
 
+## Event Log Export
+
+To comply with the official challenge deliverables, the pipeline features an export layer that maps internal database events into the official `sample_events.jsonl` schema.
+
+You can run the export script via:
+```bash
+python -m pipeline.export_logs
+```
+
+If you are running via Docker:
+```bash
+docker compose exec api python -m pipeline.export_logs
+```
+
+The resulting schema-compliant log file will be generated at:
+`data/events/final_events.jsonl`
+
+---
+
 ## 12. Scalability & Future Work
 
 Future production upgrades could include:
